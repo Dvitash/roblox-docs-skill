@@ -6,12 +6,29 @@ Use this Claude Code skill to look up Roblox API signatures, method syntax, inhe
 
 ## Installation
 
-1. Clone or download this repository
+### Claude Code
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/Dvitash/roblox-docs-skill.git
+   ```
+
 2. Place in your Claude Code skills directory:
-   - **Project-level**: `.claude/skills/roblox-docs/`
-   - **Global**: `~/.claude/skills/roblox-docs/`
+   - **Project-level** (this project only): `.claude/skills/roblox-docs/`
+   - **Global** (all projects): `~/.claude/skills/roblox-docs/` (Mac/Linux) or `%USERPROFILE%\.claude\skills\roblox-docs\` (Windows)
+
+3. Restart Claude Code
 
 The skill auto-triggers on references to Roblox engine classes (`Instance`, `Part`, `Model`, `BasePart`, `CFrame`, `Material`, `Size`, `Shape`, `Enum.*`, `game:GetService`, `CollectionService`, `ProximityPrompt`, etc.)
+
+### Other Agent Skills tools
+
+Use `npx`:
+```bash
+npx skills add Dvitash/roblox-docs-skill
+```
+
+Works with Cursor, VS Code Copilot, Gemini CLI, OpenHands, and other Agent Skills-compatible tools.
 
 ## Usage
 
