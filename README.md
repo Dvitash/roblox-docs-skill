@@ -6,14 +6,6 @@ Use this Claude Code skill to look up Roblox API signatures, method syntax, inhe
 
 ## Installation
 
-### Quick install with npx
-
-```bash
-npx skills add Dvitash/roblox-docs-skill
-```
-
-### Manual install
-
 1. Clone or download this repository
 2. Place in your Claude Code skills directory:
    - **Project-level**: `.claude/skills/roblox-docs/`
