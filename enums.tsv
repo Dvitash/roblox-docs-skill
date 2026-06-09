@@ -1,0 +1,534 @@
+AccessModifierType	Allow Deny	
+AccessoryType	Unknown Hat Hair Face Neck Shoulder Front Back Waist TShirt Shirt Pants Jacket Sweater Shorts LeftShoe RightShoe DressSkirt Eyebrow Eyelash	A subset of AssetTypes which are relevant to only accessories.
+ActionOnAutoResumeSync	DontResume KeepStudio KeepLocal	
+ActionOnStopSync	AlwaysAsk KeepLocalFiles DeleteLocalFiles	
+ActionType	Nothing Pause Lose Draw Win	
+ActivePayerStatus	Unknown Never Lapsed Casual50Percent Intermediate35Percent Top15Percent	Describes a player's payer status bucket for the current experience.
+ActuatorRelativeTo	Attachment0 Attachment1 World	The CFrame value in which the body mover constraint is expressed.
+ActuatorType	None Motor Servo	The active physics component of the constraint.
+AdAvailabilityResult	IsAvailable DeviceIneligible ExperienceIneligible InternalError NoFill PlayerIneligible PublisherIneligible	
+AdEventType	VideoLoaded VideoRemoved UserCompletedVideo RewardedAdLoaded RewardedAdGrant RewardedAdUnloaded	
+AdFormat	RewardedVideo	
+AdornCullingMode	Automatic Never	Culling method used for adornments.
+AdornShading	Default Shaded XRay XRayShaded AlwaysOnTop	
+AdShape	HorizontalRectangle	Describes the form factor of an ad in an `Class.AdGui`. There is currently only one available size.
+AdTeleportMethod	Undefined PortalForward InGameMenuBackButton UIBackButton	
+AdUIEventType	AdLabelClicked VolumeButtonClicked FullscreenButtonClicked PlayButtonClicked PauseButtonClicked CloseButtonClicked WhyThisAdClicked PlayEventTriggered PauseEventTriggered	
+AdUIType	None Image Video	
+AdUnitStatus	Inactive Active	Exposes the status of an immersive ad.
+AlignType	Parallel Perpendicular PrimaryAxisParallel PrimaryAxisPerpendicular PrimaryAxisLookAt AllAxes	An enum that specifies how the constraint will attempt to align the body associated with the constraint.
+AlphaMode	Overlay Transparency TintMask Opaque	Used by `Class.SurfaceAppearance.AlphaMode` to determine how the alpha channel of the `Class.SurfaceAppearance.ColorMap` of a `Class.SurfaceAppearance` is used.
+AnalyticsCustomFieldKeys	CustomField01 CustomField02 CustomField03	Used to form a dictionary of custom fields to provide breakdowns in Roblox-provided charts.
+AnalyticsEconomyAction	Default Acquire Spend	
+AnalyticsEconomyFlowType	Sink Source	
+AnalyticsEconomyTransactionType	IAP Shop Gameplay ContextualPurchase TimedReward Onboarding	
+AnalyticsLogLevel	Trace Debug Information Warning Error Fatal	
+AnalyticsProgressionStatus	Default Begin Complete Abandon Fail	This enum is used as an argument in `Class.AnalyticsService:FirePlayerProgressionEvent()` to describe the status of progression.
+AnalyticsProgressionType	Custom Start Fail Complete	
+AnimationClipFromVideoStatus	Initializing Pending Processing ErrorGeneric Success ErrorVideoTooLong ErrorNoPersonDetected ErrorVideoUnstable Timeout Cancelled ErrorMultiplePeople ErrorUploadingVideo	
+AnimationNodeType	InvalidNode AddNode OverNode Blend1DNode Blend2DNode ClipNode GraphOutput MaskNode PrioritySelectNode RandomSequenceNode SelectNode SequenceNode SpeedNode SubtractNode	
+AnimationPriority	Idle Movement Action Action2 Action3 Action4 Core	The AnimationPriority Enum determines how concurrently-playing AnimationTracks contribute to the final animation.
+AnimatorRetargetingMode	Default Disabled Enabled	Animation Retargeting setting.
+AnnotationEditingMode	None PlacingNew WritingNew	
+AnnotationRequestStatus	Success Loading ErrorInternalFailure ErrorNotFound ErrorModerated	
+AnnotationRequestType	Unknown Create Resolve Delete Edit	
+AntiAliasing	Disabled Enabled	Determines whether anti-aliasing is applied when drawing on the instance.
+AppLifecycleManagerState	Detached Active Inactive Hidden	
+ApplyStrokeMode	Contextual Border	Used by `Class.UIStroke.ApplyStrokeMode` to determine where to apply the stroke.
+AppShellActionType	None OpenApp TapChatTab TapConversationEntry TapAvatarTab ReadConversation TapGamePageTab TapHomePageTab GamePageLoaded HomePageLoaded AvatarEditorPageLoaded HomePageInteractive	
+AppShellFeature	None Chat AvatarEditor GamePage HomePage More Landing	
+AppUpdateStatus	Unknown NotSupported Failed NotAvailable Available AvailableBoundChannel AvailableBetaProgram	
+AspectType	FitWithinMaxSize ScaleWithParentSize	Used by `Class.UIAspectRatioConstraint.AspectType` to control sizing behavior.
+AssetCreatorType	User Group	
+AssetFetchStatus	Success Failure None Loading TimedOut	
+AssetType	Image TShirt Audio Mesh Lua Hat Place Model Shirt Pants Decal Head Face Gear Badge Animation Torso RightArm LeftArm LeftLeg RightLeg Package GamePass Plugin MeshPart HairAccessory FaceAccessory NeckAccessory ShoulderAccessory FrontAccessory BackAccessory WaistAccessory ClimbAnimation DeathAnimation FallAnimation IdleAnimation JumpAnimation RunAnimation SwimAnimation WalkAnimation PoseAnimation EarAccessory EyeAccessory EmoteAnimation Video TShirtAccessory ShirtAccessory PantsAccessory JacketAccessory SweaterAccessory ShortsAccessory LeftShoeAccessory RightShoeAccessory DressSkirtAccessory FontFamily EyebrowAccessory EyelashAccessory MoodAnimation DynamicHead FaceMakeup LipMakeup EyeMakeup VoxelFragment	This Enum can be used to match the AssetTypeId from `Class.MarketplaceService:GetProductInfoAsync()` to an asset type.
+AssetTypeVerification	Default ClientOnly Always	Determines the asset type verification mode.
+AudioApiRollout	Disabled Automatic Enabled	Used to determine whether voice chat is represented and controlled by `Class.AudioDeviceInput` objects.
+AudioCaptureMode		
+AudioChannelLayout	Mono Stereo Quad Surround_5 Surround_5_1 Surround_7_1 Surround_7_1_4	Describes the channel layout of an audio stream.
+AudioFilterType	Peak LowShelf HighShelf Lowpass12dB Lowpass24dB Lowpass48dB Highpass12dB Highpass24dB Highpass48dB Bandpass Notch Lowpass6dB	Filter types used for `Class.AudioFilter` instances.
+AudioSimulationFidelity	None Automatic	Enum which determines how detailed audio simulation should be for `Class.AudioEmitter|AudioEmitters` and `Class.AudioListener|AudioListeners`.
+AudioSubType	Music SoundEffect	The categorization of an audio asset.
+AudioWindowSize	Small Medium Large	For audio effects that use some internal buffering, determines the window-size used.
+AuthorityMode	Server Automatic	Enum used with `Class.Workspace.AuthorityMode`.
+AutoIndentRule	Off Absolute Relative	
+AutomaticSize	None X Y XY	UI objects with `Class.GuiObject.AutomaticSize|AutomaticSize` enabled will increase in size up to maximum size allowed by the parent (if there is one) and no smaller than the `Class.GuiObject.Size|Size` property bounds.
+AvatarAssetType	TShirt Hat Shirt Pants Head Face Gear Torso RightArm LeftArm LeftLeg RightLeg HairAccessory FaceAccessory NeckAccessory ShoulderAccessory FrontAccessory BackAccessory WaistAccessory ClimbAnimation FallAnimation IdleAnimation JumpAnimation RunAnimation SwimAnimation WalkAnimation EmoteAnimation TShirtAccessory ShirtAccessory PantsAccessory JacketAccessory SweaterAccessory ShortsAccessory LeftShoeAccessory RightShoeAccessory DressSkirtAccessory EyebrowAccessory EyelashAccessory MoodAnimation DynamicHead FaceMakeup LipMakeup EyeMakeup	Describes the asset types that an avatar can equip.
+AvatarChatServiceFeature	None UniverseAudio UniverseVideo PlaceAudio PlaceVideo UserAudioEligible UserAudio UserVideoEligible UserVideo UserBanned UserVerifiedForVoice	
+AvatarContextMenuOption	Friend Chat Emote InspectMenu	
+AvatarItemType	Asset Bundle	The type (Asset or Bundle) of avatar items.
+AvatarPromptResult	Success PermissionDenied Failed	The result of prompt operations of `Class.AvatarEditorService`.
+AvatarSettingsAccessoryLimitMethod	Scale Remove PreviewScale PreviewRemove	
+AvatarSettingsAccessoryMode	PlayerChoice CustomLimit	
+AvatarSettingsAnimationClipsMode	PlayerChoice CustomClips	
+AvatarSettingsAnimationPacksMode	PlayerChoice StandardR15 StandardR6	
+AvatarSettingsAppearanceMode	PlayerChoice CustomParts CustomBody	
+AvatarSettingsBuildMode	PlayerChoice CustomBuild	
+AvatarSettingsClothingMode	PlayerChoice CustomLimit	
+AvatarSettingsCollisionMode	Default SingleCollider Legacy	
+AvatarSettingsCustomAccessoryMode	PlayerChoice CustomAccessories	
+AvatarSettingsCustomBodyType	AvatarReference BundleId	
+AvatarSettingsCustomClothingMode	PlayerChoice CustomClothing	
+AvatarSettingsHitAndTouchDetectionMode	UseParts UseCollider	
+AvatarSettingsJumpMode	JumpHeight JumpPower	
+AvatarSettingsLegacyCollisionMode	R6Colliders InnerBoxColliders	
+AvatarSettingsScaleMode	PlayerChoice CustomScale	
+AvatarThumbnailCustomizationType	Closeup FullBody	
+AvatarUnificationMode	Default Disabled Enabled	Controls whether the R6 to R15 adapter is active, allowing R15 avatars to join R6 experiences.
+Axis	X Y Z	One of the 3D axes.
+BenefitType	DeveloperProduct AvatarAsset AvatarBundle	
+BinType	Script GameTool Grab Clone Hammer	
+BodyPart	Head Torso LeftArm RightArm LeftLeg RightLeg	The BodyPart Enum determines which BodyPart a `Class.CharacterMesh` affects.
+BodyPartR15	Head UpperTorso LowerTorso LeftFoot LeftLowerLeg LeftUpperLeg RightFoot RightLowerLeg RightUpperLeg LeftHand LeftLowerArm LeftUpperArm RightHand RightLowerArm RightUpperArm RootPart Unknown	BodyPartR15 is an enum with entries for each of the 15 body parts of an R15 character (plus an entry for the HumanoidRootPart).
+BorderMode	Outline Middle Inset	Used by `Class.GuiObject.BorderMode` to determine where borders are placed.
+BorderStrokePosition	Outer Center Inner	Used by `Class.UIStroke.BorderStrokePosition` to determine the stroke's position on its parent's border.
+BreakpointRemoveReason	Requested ScriptChanged ScriptRemoved	Reason that a breakpoint was removed.
+BreakReason	Other Error SpecialBreakpoint UserBreakpoint	Reason for the breakpoint hit.
+BulkMoveMode	FireAllEvents FireCFrameChanged	
+BundleType	BodyParts Animations Shoes DynamicHead DynamicHeadAvatar	The type of a bundle of assets.
+Button	Dismount Jump	One of the buttons used by `Class.Controller`.
+ButtonStyle	Custom RobloxButtonDefault RobloxButton RobloxRoundButton RobloxRoundDefaultButton RobloxRoundDropdownButton	Used by `Class.GuiButton.Style` to set a special hardcoded appearance.
+CageType	Inner Outer	
+CameraMode	Classic LockFirstPerson	Used to set `Class.Player.CameraMode` to determine when first person and third person cameras should be used.
+CameraNavigationModel	Roblox IndustryCompatible	
+CameraPanMode	Classic EdgeBump	The CameraPanMode Enum represents the available pan modes for `Class.Camera:SetCameraPanMode()`.
+CameraSpeedAdjustBinding	None RmbScroll AltScroll	
+CameraType	Fixed Attach Watch Track Follow Custom Scriptable Orbital	Describes the camera behavior mode if using the default PlayerScripts.
+CaptureGalleryPermission	ReadAndUpload	
+CaptureType	Screenshot Video	
+CatalogCategoryFilter	None Featured Collectibles CommunityCreations Premium Recommended	
+CatalogSortAggregation	Past12Hours PastDay Past3Days PastWeek PastMonth AllTime	
+CatalogSortType	Relevance PriceHighToLow PriceLowToHigh MostFavorited RecentlyCreated Bestselling	
+CellBlock	Solid VerticalWedge CornerWedge InverseCornerWedge HorizontalWedge	
+CellMaterial	Empty Grass Sand Brick Granite Asphalt Iron Aluminum Gold WoodPlank WoodLog Gravel CinderBlock MossyStone Cement RedPlastic BluePlastic Water	
+CellOrientation	NegZ X Z NegX	
+CenterDialogType	UnsolicitedDialog PlayerInitiatedDialog ModalDialog QuitDialog	
+CharacterControlMode	Default Legacy NoCharacterController LuaCharacterController	
+ChatCallbackType	OnCreatingChatWindow OnClientSendingMessage OnClientFormattingMessage OnServerReceivingMessage	
+ChatColor	Blue Green Red White	Describes the chat color.
+ChatMode	Menu TextAndMenu	
+ChatPrivacyMode	AllUsers NoOne Friends	
+ChatRestrictionStatus	Unknown NotRestricted Restricted	
+ChatStyle	Classic Bubble ClassicAndBubble	The ChatStyle Enum is used to set the style of `Class.Chat` used in a game via the `Class.Players:SetChatStyle()` method.
+ChatVersion	LegacyChatService TextChatService	Determines whether `Class.TextChatService` should be fully enabled or to allow the legacy system.
+ClientAnimatorThrottlingMode	Default Disabled Enabled	An Enum describing various animation throttling modes on clients.
+CloseReason	Unknown RobloxMaintenance DeveloperShutdown DeveloperUpdate ServerEmpty OutOfMemory	Specifies the reason for the experience server shutdown.
+CollaboratorStatus	None Editing3D Scripting PrivateScripting	
+CollisionFidelity	Default Hull Box PreciseConvexDecomposition	Determines behavior of the collision hitbox for `Class.MeshPart` and `Class.PartOperation` instances.
+CommandPermission	Plugin LocalUser	
+CompileTarget	Client CoreScript Studio CoreScriptRaw	
+CompletionAcceptanceBehavior	Insert Replace ReplaceOnEnterInsertOnTab InsertOnEnterReplaceOnTab	
+CompletionItemKind	Text Method Function Constructor Field Variable Class Interface Module Property Unit Value Enum Keyword Snippet Color File Reference Folder EnumMember Constant Struct Event Operator TypeParameter	
+CompletionItemTag	Deprecated IncorrectIndexType PluginPermissions CommandLinePermissions RobloxPermissions AddParens PutCursorInParens TypeCorrect ClientServerBoundaryViolation Invalidated PutCursorBeforeEnd	Determines the tags for completion items in `Class.ScriptEditorService:RegisterAutocompleteCallback()`.
+CompletionTriggerKind	Invoked TriggerCharacter TriggerForIncompleteCompletions	
+CompositeValueCurveType	ColorRGB ColorHSV NumberRange Rect UDim UDim2 Vector2 Vector3	Describes the type of value animated by a `Class.CompositeValueCurve`.
+CompressionAlgorithm	Zstd	A compression algorithm to use in `Class.EncodingService` methods.
+ComputerCameraMovementMode	Default Classic Follow Orbital CameraToggle	The camera movement mode currently in-use by the client.
+ComputerMovementMode	Default KeyboardMouse ClickToMove	The computer movement type in-use by the client.
+ConfigSnapshotErrorState	None LoadFailed	
+ConnectionError	OK Unknown ConnectErrors AlreadyConnected NoFreeIncomingConnections ConnectionBanned InvalidPassword IncompatibleProtocolVersion IPRecentlyConnected OurSystemRequiresSecurity SecurityKeyMismatch DisconnectErrors DisconnectBadhash DisconnectSecurityKeyMismatch DisconnectProtocolMismatch DisconnectReceivePacketError DisconnectReceivePacketStreamError DisconnectSendPacketError DisconnectIllegalTeleport DisconnectDuplicatePlayer DisconnectDuplicateTicket DisconnectTimeout DisconnectLuaKick DisconnectOnRemoteSysStats DisconnectHashTimeout DisconnectCloudEditKick DisconnectPlayerless DisconnectNewSecurityKeyMismatch DisconnectEvicted DisconnectDevMaintenance DisconnectRobloxMaintenance DisconnectRejoin DisconnectConnectionLost DisconnectIdle DisconnectRaknetErrors DisconnectWrongVersion DisconnectBySecurityPolicy DisconnectBlockedIP DisconnectClientFailure DisconnectClientRequest DisconnectPrivateServerKickout DisconnectModeratedGame ServerShutdown ReplicatorTimeout PlayerRemoved DisconnectOutOfMemoryKeepPlayingLeave DisconnectRomarkEndOfTest DisconnectCollaboratorPermissionRevoked DisconnectCollaboratorUnderage NetworkInternal NetworkSend NetworkTimeout NetworkMisbehavior NetworkSecurity ReplacementReady ServerEmpty PhantomFreeze AndroidAnticheatKick AndroidEmulatorKick AndroidRootedKick ScreentimeLockoutKick DisconnectionNotification DisconnectVerboselyModeratedGame DisconnectCollaboratorNotAgeVerified DisconnectCollaboratorTrustedConnectionsRequired DisconnectCollaboratorOwnerActionRequired DisconnectCollaboratorTooManyCollaborators DisconnectCollaboratorUnknownError PlacelaunchErrors PlacelaunchDisabled PlacelaunchError PlacelaunchGameEnded PlacelaunchGameFull PlacelaunchUserLeft PlacelaunchRestricted PlacelaunchUnauthorized PlacelaunchFlooded PlacelaunchHashExpired PlacelaunchHashException PlacelaunchPartyCannotFit PlacelaunchHttpError PlacelaunchUserPrivacyUnauthorized PlacelaunchVipOwnerNotPresent PlacelaunchAgeVerificationRequired PlacelaunchParentalApprovalRequired PlacelaunchCoreGated PlacelaunchCreatorBan PlacelaunchDeviceBlock PlacelaunchCustomMessage PlacelaunchOtherError TeleportErrors TeleportFailure TeleportGameNotFound TeleportGameEnded TeleportGameFull TeleportUnauthorized TeleportFlooded TeleportIsTeleporting	
+ConnectionState	Connected Disconnected	Used to determine the connection state of the client to the game server.
+ContentSourceType	None Uri Object Opaque	The source type of a `Datatype.Content` value.
+ContextActionPriority	Low Medium High	Describes the priority of a context action.
+ContextActionResult	Sink Pass	Describes whether a contextual action should sink or pass input events.
+ControlMode	Classic MouseLockSwitch	The ControlMode Enum sets how the player is controlled.
+CoreGuiType	PlayerList Health Backpack Chat All EmotesMenu SelfView Captures AvatarSwitcher ExperienceShop	Represents all available `Class.CoreGui` "types" such as the `Class.Backpack` and text chat window.
+CreateAssetResult	Success PermissionDenied UploadFailed Unknown	
+CreateContentResult	Success PermissionDenied UploadFailed StorageLimitExceeded Unknown	
+CreateOutfitFailure	InvalidName OutfitLimitReached Other	
+CreatorType	User Group	
+CreatorTypeFilter	User Group All	
+CurrencyType	Default Robux Tix	The CurrencyType Enum is used with `Class.MarketplaceService` to set the currency used.
+CustomCameraMode	Default Classic Follow	Changes the player's camera mode.
+DataStoreRequestType	GetAsync SetIncrementAsync UpdateAsync GetSortedAsync SetIncrementSortedAsync OnUpdate ListAsync GetVersionAsync RemoveVersionAsync StandardRead StandardWrite StandardList StandardRemove OrderedRead OrderedWrite OrderedList OrderedRemove	Indicates the type of data store request being made.
+DebuggerEndReason	ClientRequest Timeout InvalidHost Disconnected ServerShutdown ServerProtocolMismatch ConfigurationFailed RpcError	Reason for the end of the debugger session.
+DebuggerExceptionBreakMode	Never Always Unhandled	
+DebuggerFrameType	C Lua	Call stack frame type.
+DebuggerPauseReason	Unknown Requested Breakpoint Exception SingleStep Entrypoint	Reason that the DataModel was paused.
+DebuggerStatus	Success Timeout ConnectionLost InvalidResponse InternalError InvalidState RpcError InvalidArgument ConnectionClosed	Result of a debugger request.
+DefaultScriptSyncFileType	Lua Luau	
+DevCameraOcclusionMode	Zoom Invisicam	Determines how the default camera handles objects that are in-between the camera and the camera subject.
+DevComputerCameraMovementMode	UserChoice Classic Follow Orbital CameraToggle	Overwrites the player's camera movement mode setting on a computer.
+DevComputerMovementMode	UserChoice KeyboardMouse ClickToMove Scriptable	Sets the movement mode of players who are playing on computers.
+DeveloperMemoryTag	Internal HttpCache Instances Signals LuaHeap Script PhysicsCollision BaseParts GraphicsSolidModels GraphicsMeshParts GraphicsParticles GraphicsParts GraphicsSpatialHash GraphicsTerrain GraphicsTexture GraphicsTextureCharacter Sounds StreamingSounds TerrainVoxels Gui Animation Navigation GeometryCSG GraphicsSlimModels	A memory tracking category.
+DeviceFeatureType	DeviceCapture InExperienceFAE	
+DeviceForm	Console Phone Tablet Desktop VR	
+DeviceLevel	Low Medium High	
+DeviceSimulatorScalingMode	ScaleToPhysicalSize ActualResolution FitToWindow	
+DeviceType	Unknown Desktop Tablet Phone TV	Device category of the client.
+DevTouchCameraMovementMode	UserChoice Classic Follow Orbital	Overwrites the camera mode if the player is on a touch device.
+DevTouchMovementMode	UserChoice Thumbstick DPad Thumbpad ClickToMove Scriptable DynamicThumbstick	Overrides the movement mode of players who are playing on touch-enabled devices.
+DialogBehaviorType	SinglePlayer MultiplePlayers	Controls whether multiple people can use this dialog, or only one person at a time can use it.
+DialogPurpose	Quest Help Shop	The DialogPurpose enum is used to set the icon of a `Class.Dialog`.
+DialogTone	Neutral Friendly Enemy	Sets the `Class.Dialog.Tone` of a `Class.Dialog` object, which influences how the dialog appears.
+DigitsRigDescriptionSide	None Left Right	
+DisplaySize	Small Medium Large	This enum is used with `Class.GuiService.ViewportDisplaySize` to indicate the internally-categorized rendering size of the viewport.
+DominantAxis	Width Height	Used by `Class.UIAspectRatioConstraint.DominantAxis` for resizing the object to maintain the aspect ratio.
+DraftStatusCode	OK DraftOutdated ScriptRemoved DraftCommitted	
+DragDetectorDragStyle	TranslateLine TranslatePlane TranslatePlaneOrLine TranslateLineOrPlane TranslateViewPlane RotateAxis RotateTrackball Scriptable BestForDevice	Used with `Class.DragDetector` as the paradigm to generate proposed motion, given a stream of cursor rays.
+DragDetectorPermissionPolicy	Nobody Everybody Scriptable	Used to control the permission level for which players can interact with a `Class.DragDetector`.
+DragDetectorResponseStyle	Geometric Physical Custom	Describes how the clicked object will be treated once the desired motion has been calculated.
+DraggerCoordinateSpace	Object World	
+DraggerMovementMode	Geometric Physical	
+DraggingScrollBar	None Horizontal Vertical	
+EasingDirection	In Out InOut	Enum used with `Datatype.TweenInfo.new()` to control the direction `Class.Tween|Tweens` play in.
+EasingStyle	Linear Sine Back Quad Quart Quint Bounce Elastic Exponential Circular Cubic	Enum used with `Datatype.TweenInfo|TweenInfo.new` to control the motion of a `Class.Tween`.
+ElasticBehavior	WhenScrollable Always Never	This enum is used by `Class.ScrollingFrame.ElasticBehavior` to control when elastic scrolling is active on touch‑enabled devices.
+EnviromentalPhysicsThrottle	DefaultAuto Disabled Always Skip2 Skip4 Skip8 Skip16	Used to control the throttle rate of Roblox's physics engine.
+ExperienceAuthScope	DefaultScope CreatorAssetsCreate	
+ExperienceEventStatus	Active Cancelled Moderated Unpublished Unknown	
+ExplosionType	NoCraters Craters	
+ExternalEditorMode	SystemDefault UserSelectedEditor	
+FacialAgeEstimationResultType	Complete Cancel Error	
+FacialAnimationStreamingState	None Audio Video Place Server	
+FacsActionUnit	ChinRaiserUpperLip ChinRaiser FlatPucker Funneler LowerLipSuck LipPresser LipsTogether MouthLeft MouthRight Pucker UpperLipSuck LeftCheekPuff LeftDimpler LeftLipCornerDown LeftLowerLipDepressor LeftLipCornerPuller LeftLipStretcher LeftUpperLipRaiser RightCheekPuff RightDimpler RightLipCornerDown RightLowerLipDepressor RightLipCornerPuller RightLipStretcher RightUpperLipRaiser JawDrop JawLeft JawRight Corrugator LeftBrowLowerer LeftOuterBrowRaiser LeftNoseWrinkler LeftInnerBrowRaiser RightBrowLowerer RightOuterBrowRaiser RightInnerBrowRaiser RightNoseWrinkler EyesLookDown EyesLookLeft EyesLookUp EyesLookRight LeftCheekRaiser LeftEyeUpperLidRaiser LeftEyeClosed RightCheekRaiser RightEyeUpperLidRaiser RightEyeClosed TongueDown TongueOut TongueUp	
+FACSDataLod	LOD0 LOD1 LODCount	
+FieldOfViewMode	Vertical Diagonal MaxAxis	
+FileMode	Binary Text	
+FileSystemWalkMode	NonRecursive Recursive	
+FillDirection	Horizontal Vertical	Used by `Class.UIGridStyleLayout.FillDirection` to control which direction elements are placed.
+FilterErrorType	BackslashNotEscapingAnything BadBespokeFilter BadName IncompleteOr IncompleteParenthesis InvalidDoubleStar InvalidTilde PropertyBadOperator PropertyDoesNotExist PropertyInvalidField PropertyInvalidValue PropertyUnsupportedFields PropertyUnsupportedProperty UnexpectedNameIndex UnexpectedToken UnfinishedBinaryOperator UnfinishedQuote UnknownBespokeFilter WildcardInProperty	
+FilterResult	Accepted Rejected	Used to determine the result of a text filter request.
+FinishRecordingOperation	Cancel Commit Append	
+FluidFidelity	Automatic UseCollisionGeometry UsePreciseGeometry	Determines the geometric representation used to compute aerodynamic forces.
+FluidForces	Default Experimental	Controls the enablement of aerodynamic forces on parts and assemblies in the workspace.
+Font	Legacy Arial ArialBold SourceSans SourceSansBold SourceSansLight SourceSansItalic Bodoni Garamond Cartoon Code Highway SciFi Arcade Fantasy Antique SourceSansSemibold Gotham GothamMedium GothamBold GothamBlack AmaticSC Bangers Creepster DenkOne Fondamento FredokaOne GrenzeGotisch IndieFlower JosefinSans Jura Kalam LuckiestGuy Merriweather Michroma Nunito Oswald PatrickHand PermanentMarker Roboto RobotoCondensed RobotoMono Sarpanch SpecialElite TitilliumWeb Ubuntu BuilderSans BuilderSansMedium BuilderSansBold BuilderSansExtraBold Arimo ArimoBold Unknown	
+FontSize	Size8 Size9 Size10 Size11 Size12 Size14 Size18 Size24 Size36 Size48 Size28 Size32 Size42 Size60 Size96	
+FontStyle	Normal Italic	Describes whether a `Datatype.Font` style is normal or italic.
+FontWeight	Thin ExtraLight Light Regular Medium SemiBold Bold ExtraBold Heavy	Describes how thick a `Datatype.Font` is.
+ForceLimitMode	Magnitude PerAxis	The **ForceLimitMode** enum determines how the maximum force for a constraint is specified and how that limit is enforced by the constraint.
+FormFactor	Symmetric Brick Plate Custom	
+FramerateManagerMode	Automatic On Off	
+FrameStyle	Custom ChatBlue RobloxSquare RobloxRound ChatGreen ChatRed DropShadow	Used to set the style of a `Class.Frame`.
+FriendRequestEvent	Issue Revoke Accept Deny	
+FriendStatus	Unknown NotFriend Friend FriendRequestSent FriendRequestReceived	
+FunctionalTestResult	Passed Warning Error	Status of a single functional test run.
+GameAvatarType	R6 R15 PlayerChoice	Value indicating which type of avatar an experience uses.
+GamepadType	Unknown PS4 PS5 XboxOne	
+GearGenreSetting	AllGenres MatchingGenreOnly	
+GearType	MeleeWeapons RangedWeapons Explosives PowerUps NavigationEnhancers MusicalInstruments SocialItems BuildingTools Transport	
+Genre	All TownAndCity Fantasy SciFi Ninja Scary Pirate Adventure Sports Funny WildWest War SkatePark Tutorial	Used to represent the type of game.
+GraphicsMode	Automatic Direct3D11 OpenGL Metal Vulkan NoGraphics	Used to set the graphics API that Roblox uses to render the game.
+GraphicsOptimizationMode	Performance Balanced Quality	
+GroupMembershipStatus	None Joined JoinRequestPending AlreadyMember	Defines the possible outcomes of the `Class.GroupService:PromptJoinAsync()` method.
+GuiState	Idle Hover Press NonInteractable	
+GuiType	Core Custom PlayerNameplates CustomBillboards CoreBillboards	
+HandlesStyle	Resize Movement	
+HapticEffectType	Custom UIHover UIClick UINotification GameplayExplosion GameplayCollision	Enum used alongside `Class.HapticEffect.Type`.
+HashAlgorithm	Blake2b Blake3 Md5 Sha1 Sha256	A Cryptographic hash function to use in `Class.EncodingService` methods.
+HighlightDepthMode	AlwaysOnTop Occluded	Controls how the `Class.Highlight` effect displays with respect to other objects in the world.
+HorizontalAlignment	Center Left Right	Used by `Class.UIGridStyleLayout.HorizontalAlignment` to align the layout horizontally within its parent.
+HoverAnimateSpeed	VerySlow Slow Medium Fast VeryFast	
+HttpCachePolicy	None Full DataOnly Default InternalRedirectRefresh	
+HttpCompression	None Gzip	
+HttpContentType	ApplicationJson ApplicationXml ApplicationUrlEncoded TextPlain TextXml	Specifies the value of the HTTP Content-Type header which describes the HTTP request data type.
+HttpError	OK InvalidUrl DnsResolve ConnectFail OutOfMemory TimedOut TooManyRedirects InvalidRedirect NetFail Aborted SslConnectFail SslVerificationFail Unknown ConnectionClosed ServerProtocolError CreatorEnvironmentsNotSupportedByService InactivityTimeout TooManyOutstandingRequests	
+HttpRequestType	Default MarketplaceService Players Chat Avatar Analytics Localization	
+HumanoidCollisionType	OuterBox InnerBox	The collision `Class.Humanoid` uses.
+HumanoidDisplayDistanceType	Viewer Subject None	HumanoidDisplayDistanceType determines how `Class.Humanoid.HealthDisplayDistance`, and `Class.Humanoid.NameDisplayDistance` are used in determining whether a players's name and health are visible to other players.
+HumanoidHealthDisplayType	DisplayWhenDamaged AlwaysOn AlwaysOff	Controls under what circumstances the `Class.Humanoid` health bar is displayed.
+HumanoidRigType	R6 R15	Describes whether or not a character is using the new R15 rig, or the legacy R6 rig.
+HumanoidStateType	FallingDown Ragdoll GettingUp Jumping Swimming Freefall Flying Landed Running RunningNoPhysics StrafingNoPhysics Climbing Seated PlatformStanding Dead Physics None	Describes the physics control states within the Humanoid.
+IKCollisionsMode	NoCollisions OtherMechanismsAnchored IncludeContactedMechanisms	
+IKControlConstraintSupport	Default Disabled Enabled	Values for `Class.Workspace.IKControlConstraintSupport`. Sets the support for constraints for `Class.IKControl|IKControls` in your experience.
+IKControlType	Transform Position Rotation LookAt	Used on `Class.IKControl` to specify their `Class.IKControl.Type|Type`, to change their behavior.
+ImageAlphaType	Default LockCanvasAlpha LockCanvasColor	Enum for determining if the alpha or color is locked while combining two images.
+ImageCombineType	BlendSourceOver Overwrite Add Multiply AlphaBlend NormalMapBlend	Enum for determining how two images are combined together.
+InfoType	Asset Product GamePass Subscription Bundle	
+InitialDockState	Top Bottom Left Right Float	Describes the initial docking state of a `Class.DockWidgetPluginGui`.
+InOut	Edge Inset Center	The InOut Enum is used to set where the object is on the side of its parent.
+InputActionType	Bool Direction1D Direction2D Direction3D ViewportPosition	This enum is used by `Class.InputAction.Type` to determine which input data type the `Class.InputAction` will receive.
+InputSink	None Activate All	
+InputType	NoInput Constant Sin	The InputType Enum controls the SurfaceInputs of `Class.Part`.
+InstanceFileSyncStatus	NotSynced Errored SyncedAsRoot SyncedAsDescendant AncestorErrored	Describes the file sync status of an Instance.
+IntermediateMeshGenerationResult	HighQualityMesh	
+InterpolationThrottlingMode	Default Disabled Enabled	
+InviteState	Placed Accepted Declined Missed	Describes a player's call invite state.
+ItemLineAlignment	Automatic Start Center End Stretch	Used for `Class.UIListLayout.ItemLineAlignment` and `Class.UIFlexItem.ItemLineAlignment` in a flex layout to define the cross-directional alignment of siblings or the parent within a line.
+IXPLoadingStatus	None Pending Initialized ErrorInvalidUser ErrorConnection ErrorJsonParse ErrorTimedOut	
+JoinSource	CreatedItemAttribution	
+JointCreationMode	All Surface None	The way joints are created between two surfaces.
+KeyCode	Unknown Backspace Tab Clear Return Pause Escape Space QuotedDouble Hash Dollar Percent Ampersand Quote LeftParenthesis RightParenthesis Asterisk Plus Comma Minus Period Slash Zero One Two Three Four Five Six Seven Eight Nine Colon Semicolon LessThan Equals GreaterThan Question At LeftBracket BackSlash RightBracket Caret Underscore Backquote A B C D E F G H I J K L M N O P Q R S T U V W X Y Z LeftCurly Pipe RightCurly Tilde Delete World0 World1 World2 World3 World4 World5 World6 World7 World8 World9 World10 World11 World12 World13 World14 World15 World16 World17 World18 World19 World20 World21 World22 World23 World24 World25 World26 World27 World28 World29 World30 World31 World32 World33 World34 World35 World36 World37 World38 World39 World40 World41 World42 World43 World44 World45 World46 World47 World48 World49 World50 World51 World52 World53 World54 World55 World56 World57 World58 World59 World60 World61 World62 World63 World64 World65 World66 World67 World68 World69 World70 World71 World72 World73 World74 World75 World76 World77 World78 World79 World80 World81 World82 World83 World84 World85 World86 World87 World88 World89 World90 World91 World92 World93 World94 World95 KeypadZero KeypadOne KeypadTwo KeypadThree KeypadFour KeypadFive KeypadSix KeypadSeven KeypadEight KeypadNine KeypadPeriod KeypadDivide KeypadMultiply KeypadMinus KeypadPlus KeypadEnter KeypadEquals Up Down Right Left Insert Home End PageUp PageDown F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 F14 F15 NumLock CapsLock ScrollLock RightShift LeftShift RightControl LeftControl RightAlt LeftAlt RightMeta LeftMeta LeftSuper RightSuper Mode Compose Help Print SysReq Break Menu Power Euro Undo ButtonX ButtonY ButtonA ButtonB ButtonR1 ButtonL1 ButtonR2 ButtonL2 ButtonR3 ButtonL3 ButtonStart ButtonSelect DPadLeft DPadRight DPadUp DPadDown Thumbstick1 Thumbstick2 Thumbstick1Up Thumbstick1Down Thumbstick1Left Thumbstick1Right Thumbstick2Up Thumbstick2Down Thumbstick2Left Thumbstick2Right MouseLeftButton MouseRightButton MouseMiddleButton MouseBackButton MouseNoButton MouseX MouseY MousePosition TouchPosition MouseWheel TrackpadPan TrackpadPinch MouseDelta TouchDelta TouchPinch	Byte keycodes that represent the key or button involved in user input.
+KeyInterpolationMode	Constant Linear Cubic	Describes the interpolation method between two keys.
+KeywordFilterType	Include Exclude	Determines if a filter is 'inclusive' or 'exclusive'.
+Language	Default	
+LeftRight	Left Center Right	The LeftRight Enum is used to set where the object is on the side of its parent.
+LexemeType	Eof Name QuotedString Number And Or Equal TildeEqual GreaterThan GreaterThanEqual LessThan LessThanEqual Colon Dot LeftParenthesis RightParenthesis Star DoubleStar ReservedSpecial	
+LightingStyle	Realistic Soft	Enum used by `Class.Lighting.LightingStyle` to indicate the artistic intent behind lighting in the experience.
+Limb	Head Torso LeftArm RightArm LeftLeg RightLeg Unknown	Describes which limb a particular Instance belongs to (assuming the Instance is part of a Humanoid).
+LineJoinMode	Round Bevel Miter	This enum is used by `Class.UIStroke.LineJoinMode` to determine how corners are interpreted.
+ListDisplayMode	Horizontal Vertical	Used to set the scrolling mode of the Advanced Objects tab.
+ListenerLocation	Default None Character Camera	Enum used with `Class.SoundService.DefaultListenerLocation` to determine where an `Class.AudioListener` is placed by default.
+ListenerType	Camera CFrame ObjectPosition ObjectCFrame	Defines where and how the listener is positioned when picking up spatial audio.
+LiveEditingAtomicUpdateResponse	Success FailureGuidNotFound FailureHashMismatch FailureOperationIllegal	
+LiveEditingBroadcastMessageType	Normal Warning Error	
+LoadCharacterLayeredClothing	Default Disabled Enabled	Indicates whether characters spawning into an experience will have layered clothing accessories equipped on them.
+LoadDynamicHeads	Default Disabled Enabled	
+LocationType	Character Camera ObjectPosition	
+LuauTypeCheckMode	Default NoCheck Nonstrict Strict	The Luau type checking mode for scripts in the experience.
+MakeupType	Face Lip Eye	
+MarketplaceBulkPurchasePromptStatus	Completed Aborted Error	The status of the BulkPurchasePrompt after player interaction.
+MarketplaceItemPurchaseStatus	Success SystemError AlreadyOwned InsufficientRobux QuantityLimitExceeded QuotaExceeded NotForSale NotAvailableForPurchaser PriceMismatch SoldOut PurchaserIsSeller InsufficientMembership PlaceInvalid	The status of the item purchase through MarketplaceService.
+MarketplaceProductType	AvatarAsset AvatarBundle	Indicates if an avatar item is an asset or bundle. Used with MarketplaceService and similar services.
+MarkupKind	PlainText Markdown	
+MatchmakingType	Default XboxOnly PlayStationOnly	Used with `Class.DataModel.MatchmakingType` to represent how players in the server are handled by matchmaking.
+Material	Plastic SmoothPlastic Neon Wood WoodPlanks Marble Basalt Slate CrackedLava Concrete Limestone Granite Pavement Brick Pebble Cobblestone Rock Sandstone CorrodedMetal DiamondPlate Foil Metal Grass LeafyGrass Sand Fabric Snow Mud Ground Asphalt Salt Ice Glacier Glass ForceField Air Water Cardboard Carpet CeramicTiles ClayRoofTiles RoofShingles Leather Plaster Rubber	Materials used for parts and/or terrain.
+MaterialPattern	Regular Organic	Describes the pattern of material. Affects texture tiling method.
+MembershipType	None BuildersClub TurboBuildersClub OutrageousBuildersClub Premium	The membership type of a Player.
+MeshPartDetailLevel	DistanceBased Level00 Level01 Level02 Level03 Level04 Level05 Level06 Level07 Level08 Level09	The level of detail of `MeshParts` displayed in Studio.
+MeshPartHeadsAndAccessories	Default Disabled Enabled	Controls the `Class.Workspace.MeshPartHeadsAndAccessories` feature.
+MeshScaleUnit	Stud Meter CM MM Foot Inch	
+MeshType	Head Torso Wedge Sphere Cylinder FileMesh Brick Prism Pyramid ParallelRamp RightAngleRamp CornerWedge	The MeshType Enum is used to set what type of mesh the `Class.SpecialMesh` is.
+MessageType	MessageOutput MessageInfo MessageWarning MessageError	Message category and severity level.
+ModelLevelOfDetail	Automatic StreamingMesh Disabled SLIM	Controls the level of detail for `Class.Model|Models` in experiences with instance streaming enabled.
+ModelStreamingBehavior	Default Legacy Improved	Controls how `Class.Model|Models` are sent to clients in experiences with instance streaming enabled.
+ModelStreamingMode	Default Atomic Persistent PersistentPerPlayer Nonatomic	Controls stream in and out behavior of a model.
+ModerationStatus	ReviewedApproved ReviewedRejected NotReviewed NotApplicable Invalid	
+ModifierKey	Shift Ctrl Alt Meta	
+MouseBehavior	Default LockCenter LockCurrentPosition	Sets the user's mouse behavior.
+MoveState	Stopped Coasting Pushing Stopping AirFree	Represents the state of a `Class.SkateboardPlatform`.
+MuteState	Unmuted Muted	
+NameOcclusion	NoOcclusion EnemyOcclusion OccludeAll	The NameOcclusion Enum is used to set the `Class.Humanoid.NameOcclusion` property.
+NegateOperationHiddenHistory	None NegatedUnion NegatedIntersection	
+NetworkOwnership	Automatic Manual OnContact	Defines how simulation authority is determined for the Network Ownership Unit/Mechanism this part is attached to.
+NetworkStatus	Unknown Connected Disconnected	
+NoiseType	SimplexGabor	
+NormalId	Right Top Back Left Bottom Front	The NormalId Enum sets which side/face of a Part is used.
+NotificationButtonType	Primary Secondary	
+OperationType	Null Union Subtraction Intersection Primitive	
+OrientationAlignmentMode	OneAttachment TwoAttachment	The OrientationAlignmentMode Enum is used to select the number of `Class.Attachment|Attachments` used in an alignment.
+OutfitSource	All Created Purchased	
+OutfitType	All Avatar DynamicHead Shoes Makeup	
+OutputLayoutMode	Horizontal Vertical	Sets the layout mode of the output.
+OverrideMouseIconBehavior	None ForceShow ForceHide	Overrides the behavior of the mouse icon to either force that it is always shown or force that it is always hidden.
+PackagePermission	None NoAccess Revoked UseView Edit Own	Indicates the current user's or group roleset's permission to the package.
+ParticleEmitterShape	Box Sphere Cylinder Disc	
+ParticleEmitterShapeInOut	Outward Inward InAndOut	
+ParticleEmitterShapeStyle	Volume Surface	
+ParticleFlipbookLayout	None Grid2x2 Grid4x4 Grid8x8 Custom	Determines the layout of the flipbook texture.
+ParticleFlipbookMode	Loop OneShot PingPong Random	Determines the type of the flipbook animation.
+ParticleFlipbookTextureCompatible	NotCompatible Compatible Unknown	
+ParticleOrientation	FacingCamera FacingCameraWorldUp VelocityParallel VelocityPerpendicular	
+PartType	Ball Block Cylinder Wedge CornerWedge	Controls the `Class.Part.Shape` of an object.
+PathfindingUseImprovedSearch	Default Disabled Enabled	Controls whether `Class.PathfindingService` uses an improved search algorithm.
+PathStatus	Success ClosestNoPath ClosestOutOfRange FailStartNotEmpty FailFinishNotEmpty NoPath	The success of a `Class.Path` generated by `Class.PathfindingService`.
+PathWaypointAction	Walk Jump Custom	Describes the action to take when a `Datatype.PathWaypoint` is reached.
+PeoplePageLayout	Card List	
+PermissionLevelShown	Game RobloxGame RobloxScript Studio Roblox	Used to set the highest permission level that APIs have to have in order to be shown in the Object Browser.
+PhysicalConstraintType	AnimationConstraint Motor6D	
+PhysicsSimulationRate	Fixed240Hz Fixed120Hz Fixed60Hz	
+PhysicsSteppingMethod	Default Fixed Adaptive	
+Platform	Windows OSX IOS Android XBoxOne PS4 PS3 XBox360 WiiU NX Ouya AndroidTV Chromecast Linux SteamOS WebOS DOS BeOS UWP PS5 MetaOS Web None	Host operating system of the client.
+PlaybackState	Begin Delayed Playing Paused Completed Cancelled	Describes the current state of a `Class.Tween` in its `Class.Tween.PlaybackState` property.
+PlayerActions	CharacterForward CharacterBackward CharacterLeft CharacterRight CharacterJump	References a movement action taken by a player.
+PlayerCharacterDestroyBehavior	Default Disabled Enabled	Controls destruction behavior when a player character is removed.
+PlayerChatType	All Team Whisper	Determines the style of a chat message.
+PlayerDataErrorState	LoadFailed FlushFailed ReleaseFailed None	
+PlayerDataLoadFailureBehavior	Failure FallbackToDefault Kick	
+PlayerExitReason	Unknown PlatformKick CreatorKick	An enum that specifies the reason for **Players.PlayerRemoving** signal.
+PlayerPlatformSpenderStatus	Unknown Active OtherPayer	Describes a player's platform-wide spender status bucket.
+PluginConnectionTargetType	Edit Test	
+PoseEasingDirection	In Out InOut	Used exclusively by Pose.EasingDirection to specify direction of the EasingStyle curve.
+PoseEasingStyle	Linear Constant Elastic Cubic Bounce CubicV2	
+PositionAlignmentMode	OneAttachment TwoAttachment	The PositionAlignmentMode Enum is used to select the number of `Class.Attachment|Attachments` used in an alignment.
+PredictionMode	Automatic On Off	Enum used with `Class.RunService:SetPredictionMode()` to define the prediction mode for the instance.
+PredictionStatus	Authoritative Predicted None	Enum used with `Class.RunService:GetPredictionStatus()` to check the status of a specific instance.
+PreferredInput	KeyboardAndMouse Gamepad Touch	This enum is used with `Class.UserInputService.PreferredInput` to indicate the primary input type a player is likely using.
+PreferredTextSize	Medium Large Larger Largest	This enum is used with `Class.GuiService.PreferredTextSize` to indicate the player's preferred text size.
+PrimalPhysicsSolver	Default Experimental Disabled	Controls whether the experimental Primal Physics Solver is enabled.
+PrimitiveType	Null Ball Cylinder Block Wedge CornerWedge	
+PrivilegeType	Banned Visitor Member Admin Owner	
+ProductLocationRestriction	AvatarShop AllowedGames AllGames	
+ProductPurchaseChannel	InExperience ExperienceDetailsPage AdReward CommerceProduct	Enum which works with `Class.MarketplaceService` to represent how the user acquired the developer product.
+ProductPurchaseDecision	NotProcessedYet PurchaseGranted	The `ProductPurchaseDecisionEnum` works with `Class.MarketplaceService` to indicate the status of the sale of developer products.
+PromptCreateAssetResult	Success PermissionDenied Timeout UploadFailed NoUserInput UnknownFailure UGCValidationFailed ModeratedName PurchaseFailure TokenInvalid	
+PromptCreateAvatarResult	Success PermissionDenied Timeout UploadFailed NoUserInput InvalidHumanoidDescription UGCValidationFailed ModeratedName MaxOutfits PurchaseFailure UnknownFailure TokenInvalid	
+PromptExperienceDetailsResult	PromptClosed TeleportAttempted	
+PromptPublishAssetResult	Success PermissionDenied Timeout UploadFailed NoUserInput UnknownFailure	
+PropertyStatus	Ok Warning Error	
+ProximityPromptExclusivity	OnePerButton OneGlobally AlwaysShow	
+ProximityPromptInputType	Keyboard Gamepad Touch	
+ProximityPromptStyle	Default Custom	
+QualityLevel	Automatic Level01 Level02 Level03 Level04 Level05 Level06 Level07 Level08 Level09 Level10 Level11 Level12 Level13 Level14 Level15 Level16 Level17 Level18 Level19 Level20 Level21	Controls the rendering quality of the game.
+R15CollisionType	OuterBox InnerBox	Collision behavior type for a R15 character.
+RaycastFilterType	Exclude Include	Used in a `Datatype.RaycastParams` object to determine how its `Datatype.RaycastParams.FilterDescendantsInstances|FilterDescendantsInstances` list will be used.
+ReadCapturesFromGalleryResult	Success NeedPermission	
+ReceiptDecision	NotProcessedYet Processed	`ReceiptDecision` works with `Class.MarketplaceService` to indicate the acknowledgement of receipts.
+ReceiptType	DeveloperProduct RobuxTransferSender RobuxTransferReceiver	`ReceiptType` is used to work with server-sided receipt processing.
+RecommendationActionType	AddReaction RemoveReaction Share Report Comment Play Purchase	
+RecommendationDepartureIntent	Neutral Positive Negative	
+RecommendationImpressionType	View NotViewable	
+RecommendationItemContentType	Static Dynamic Interactive	
+RecommendationItemVisibility	Private Public	
+RecommendationPreferenceTargetType	User Universe CustomTag	
+RecommendationPreferenceType	AddFollow RemoveFollow AddMute RemoveMute	
+RejectCharacterDeletions	Default Disabled Enabled	Controls whether the server rejects client attempts to delete player characters.
+RenderFidelity	Automatic Precise Performance	Determines the level of detail that solid modeled and mesh parts will be shown in.
+RenderingCacheOptimizationMode	Default Disabled Enabled	Controls rendering cache optimization behavior.
+RenderingTestComparisonMethod	psnr diff	
+RenderPriority	First Input Camera Character Last	A list of standard reserved values in BindToRenderStep.
+ReplicateInstanceDestroySetting	Default Disabled Enabled	Controls how `Instance:Destroy()` calls are replicated from server to clients.
+ResamplerMode	Default Pixelated	Determines the image filtering used.
+ReservedHighlightId	Standard Active Hover Selection NegatedPart	
+RestPose	Default RotationsReset Custom	
+ReturnKeyType	Default Done Go Next Search Send	
+ReverbType	NoReverb GenericReverb PaddedCell Room Bathroom LivingRoom StoneRoom Auditorium ConcertHall Cave Arena Hangar CarpettedHallway Hallway StoneCorridor Alley Forest City Mountains Quarry Plain ParkingLot SewerPipe UnderWater	The ReverbType Enum allows you to make audio in your game sound different, depending on what "area" the sounds are in.
+RibbonTool	Select Scale Rotate Move Transform ColorPicker MaterialPicker Group Ungroup None PivotEditor	
+RigScale	Default Rthro RthroNarrow	
+RigType	R15 CustomHumanoid Custom None	The type of rig being imported with the 3D Importer.
+RollOffMode	Inverse Linear LinearSquare InverseTapered	How `Class.Sound|Sounds` parented to a `Class.BasePart` or `Class.Attachment` attenuate (fade out) as the distance between the listener and the parent increases.
+RolloutState	Default Disabled Enabled	A three-phase rollout state used to opt in or out of engine features.
+RotationOrder	XYZ XZY YZX YXZ ZXY ZYX	The order of rotation axes used for Euler angles encoding of rotations.
+RotationType	MovementRelative CameraRelative	
+RsvpStatus	None Going NotGoing	
+RtlTextSupport	Default Disabled Enabled	
+RunContext	Legacy Server Client Plugin	
+RunState	Stopped Running Paused	
+RuntimeUndoBehavior	Aggregate Snapshot Hybrid	
+SafeAreaCompatibility	None FullscreenExtension	Describes how descendants of a `Class.ScreenGui` adapt to screens with cutouts.
+SalesTypeFilter	All Collectibles Premium TimedOptions	
+SandboxedInstanceMode	Default Experimental	Controls whether sandboxed instance mode (script capabilities) is enabled.
+SaveAvatarThumbnailCustomizationFailure	BadThumbnailType BadYRotDeg BadFieldOfViewDeg BadDistanceScale Other Throttled	
+SavedQualitySetting	Automatic QualityLevel1 QualityLevel2 QualityLevel3 QualityLevel4 QualityLevel5 QualityLevel6 QualityLevel7 QualityLevel8 QualityLevel9 QualityLevel10	
+SaveFilter	SaveWorld SaveGame SaveAll	Used by `Class.DataModel.SavePlace` to determine the type of save operation This enum determines which aspects of the current place are saved, based on the following options.
+ScaleType	Stretch Slice Tile Fit Crop	Determines how an image (of a `Class.ImageLabel` or `Class.ImageButton`) is scaled.
+ScopeCheckResult	ConsentAccepted InvalidScopes Timeout NoUserInput BackendError UnexpectedError InvalidArgument ConsentDenied	
+ScreenInsets	None DeviceSafeInsets CoreUISafeInsets TopbarSafeInsets	Insets associated with various screen safe areas.
+ScreenOrientation	LandscapeLeft LandscapeRight LandscapeSensor Portrait Sensor	The preference of in-game screen orientation on hand-held devices.
+ScrollBarInset	None ScrollBar Always	This enum is used with `Class.ScrollingFrame.HorizontalScrollBarInset` and `Class.ScrollingFrame.VerticalScrollBarInset` to indicate whether the canvas should be inset by `Class.ScrollingFrame.ScrollBarThickness|ScrollBarThickness` for the respective scroll bar.
+ScrollingDirection	X Y XY	This enum is used by `Class.ScrollingFrame.ScrollingDirection` to specify the direction(s) in which scrolling is allowed.
+SecurityCapability	RunClientScript RunServerScript AccessOutsideWrite AssetRequire LoadString ScriptGlobals CreateInstances Basic Audio DataStore Network Physics UI CSG Chat Animation Avatar Input Environment RemoteEvent LegacySound Players CapabilityControl Plugin LocalUser WritePlayer RobloxScript RobloxEngine Unassigned InternalTest PluginOrOpenCloud Assistant RemoteCommand AssetRead AssetManagement DynamicGeneration PlatformAvatarEditing AssetCreateUpdate Capture SensitiveInput Monetization LoadOwnedAsset Social ServerCommunication Logging PromptExternalPurchase Groups Teleport Consequences Material AvatarBehavior AvatarAppearance LoadUnownedAsset	
+SelectionBehavior	Escape Stop	Customization options for gamepad selection when `Class.GuiBase2d.SelectionGroup` is true.
+SelectionRenderMode	Outlines BoundingBoxes Both	
+SelfViewPosition	LastPosition TopLeft TopRight BottomLeft BottomRight	Defines the screen location of the current player's self view.
+SensorMode	Floor Ladder ClassicFloor ClassicLadder	
+SensorUpdateType	OnRead Manual	
+ServerLiveEditingMode	Uninitialized Enabled Disabled	
+ServiceVisibility	Always Off WithChildren	
+Severity	Error Warning Information Hint	
+ShowAdResult	ShowCompleted AdNotReady AdAlreadyShowing InternalError ShowInterrupted InsufficientMemory	
+SignalBehavior	Default Immediate Deferred AncestryDeferred	Determines when the engine resumes event handlers.
+SizeConstraint	RelativeXY RelativeXX RelativeYY	Used to constrain the scale of a GUI object.
+SolverConvergenceMetricType	IterationBased AlgorithmAgnostic	
+SolverConvergenceVisualizationMode	Disabled PerIsland PerEdge	
+SortDirection	Ascending Descending	
+SortOrder	Name Custom LayoutOrder	Used by `Class.UIGridStyleLayout.SortOrder` to order the elements in the layout.
+SpecialKey	Insert Home End PageUp PageDown ChatHotkey	
+StartCorner	TopLeft TopRight BottomLeft BottomRight	Used by `Class.UIGridLayout.StartCorner` to decide where the first element is placed.
+StateObjectFieldType	Boolean CFrame Color3 Float Instance Random Vector2 Vector3 INVALID	
+Status	Poison Confusion	This enum was used with the unfinished `Class.Status` library.
+StepFrequency	Hz60 Hz30 Hz15 Hz10 Hz5 Hz1	Enum used with `Class.RunService:BindToSimulation()` to indicate the frequency at which the bound function is called.
+StreamingIntegrityMode	Default Disabled MinimumRadiusPause PauseOutsideLoadedArea	Determines how a user's client should handle not having enough content streamed in.
+StreamingPauseMode	Default Disabled ClientPhysicsPause	Determines how a client should handle not having enough content streamed in to continue playing properly.
+StreamOutBehavior	Default LowMemory Opportunistic	Determines how content is streamed out from `Class.Player` clients.
+StrokeSizingMode	FixedSize ScaledSize	Used by `Class.UIStroke.StrokeSizingMode` to determine whether the stroke's `Class.UIStroke.Thickness|Thickness` will be measured in pixels or be relative to the parent.
+StudioCaptureBufferStatus	NotStarted Pending Ready Error	
+StudioCaptureScreenshotFormat	RGBA8 PNG	
+StudioCloseMode	None CloseStudio CloseDoc LogOut	
+StudioDataModelType	Edit PlayClient PlayServer Standalone None	
+StudioPlaceUpdateFailureReason	Other TeamCreateConflict	
+StudioScriptEditorColorCategories	Default Operator Number String Comment Keyword Builtin Method Property Nil Bool Function Local Self LuauKeyword FunctionName TODO Background SelectionText SelectionBackground FindSelectionBackground MatchingWordBackground Warning Error Info Hint Whitespace ActiveLine DebuggerCurrentLine DebuggerErrorLine Ruler Bracket Type MenuPrimaryText MenuSecondaryText MenuSelectedText MenuBackground MenuSelectedBackground MenuScrollbarBackground MenuScrollbarHandle MenuBorder DocViewCodeBackground AICOOverlayText AICOOverlayButtonBackground AICOOverlayButtonBackgroundHover AICOOverlayButtonBackgroundPressed IndentationRuler	
+StudioScriptEditorColorPresets	RobloxDefault Extra1 Extra2 Custom	
+StudioStyleGuideColor	MainBackground Titlebar Dropdown Tooltip Notification ScrollBar ScrollBarBackground TabBar Tab FilterButtonDefault FilterButtonHover FilterButtonChecked FilterButtonAccent FilterButtonBorder FilterButtonBorderAlt RibbonTab RibbonTabTopBar Button MainButton RibbonButton ViewPortBackground InputFieldBackground Item TableItem CategoryItem GameSettingsTableItem GameSettingsTooltip EmulatorBar EmulatorDropDown ColorPickerFrame CurrentMarker Border DropShadow Shadow Light Dark Mid MainText SubText TitlebarText BrightText DimmedText LinkText WarningText ErrorText InfoText SensitiveText ScriptSideWidget ScriptBackground ScriptText ScriptSelectionText ScriptSelectionBackground ScriptFindSelectionBackground ScriptMatchingWordSelectionBackground ScriptOperator ScriptNumber ScriptString ScriptComment ScriptKeyword ScriptBuiltInFunction ScriptWarning ScriptError ScriptInformation ScriptHint ScriptWhitespace ScriptRuler DocViewCodeBackground DebuggerCurrentLine DebuggerErrorLine DiffFilePathText DiffTextHunkInfo DiffTextNoChange DiffTextAddition DiffTextDeletion DiffTextSeparatorBackground DiffTextNoChangeBackground DiffTextAdditionBackground DiffTextDeletionBackground DiffLineNum DiffLineNumSeparatorBackground DiffLineNumNoChangeBackground DiffLineNumAdditionBackground DiffLineNumDeletionBackground DiffFilePathBackground DiffFilePathBorder ChatIncomingBgColor ChatIncomingTextColor ChatOutgoingBgColor ChatOutgoingTextColor ChatModeratedMessageColor Separator ButtonBorder ButtonText InputFieldBorder CheckedFieldBackground CheckedFieldBorder CheckedFieldIndicator HeaderSection Midlight StatusBar DialogButton DialogButtonText DialogButtonBorder DialogMainButton DialogMainButtonText InfoBarWarningBackground InfoBarWarningText ScriptEditorCurrentLine ScriptMethod ScriptProperty ScriptNil ScriptBool ScriptFunction ScriptLocal ScriptSelf ScriptLuauKeyword ScriptFunctionName ScriptTodo ScriptBracket AttributeCog AICOOverlayText AICOOverlayButtonBackground AICOOverlayButtonBackgroundHover AICOOverlayButtonBackgroundPressed OnboardingCover OnboardingHighlight OnboardingShadow BreakpointMarker DiffLineNumHover DiffLineNumSeparatorBackgroundHover	
+StudioStyleGuideModifier	Default Selected Pressed Disabled Hover	
+Style	AlternatingSupports BridgeStyleSupports NoSupports	The Style Enum is used to set what style of supports the `Class.TrussPart` has.
+SubscriptionExpirationReason	ProductInactive ProductDeleted SubscriberCancelled SubscriberRefunded Lapsed	
+SubscriptionPaymentStatus	Paid Refunded	
+SubscriptionPeriod	Month	
+SubscriptionState	NeverSubscribed SubscribedWillRenew SubscribedWillNotRenew SubscribedRenewalPaymentPending Expired	
+SurfaceConstraint	None Hinge SteppingMotor Motor	This item is deprecated and is replaced by the `Enum.SurfaceType` enum.
+SurfaceGuiShape	Flat CurvedHorizontally	
+SurfaceGuiSizingMode	FixedSize PixelsPerStud	Used by `Class.SurfaceGui.SizingMode` to control the sizing behavior of a `Class.SurfaceGui`.
+SurfaceType	Smooth Glue Weld Studs Inlet Universal Hinge Motor SteppingMotor SmoothNoOutlines	Used to determine how a surface should be displayed on a part and how automatic surface joints should behave.
+SwipeDirection	Right Left Up Down None	The direction that a user is swiping on their touch screen.
+SystemThemeValue	error light dark systemLight systemDark	
+TableMajorAxis	RowMajor ColumnMajor	Used by `Class.UITableLayout.MajorAxis` to decide whether direct siblings are rows or columns.
+TeamCreateErrorState	PlaceSizeTooLarge PlaceSizeApproachingLimit PlaceUploadFailing NoError	
+Technology	Legacy Voxel Compatibility ShadowMap Future Unified	Enum used by `Class.Lighting.Technology` to represent the different lighting systems available for rendering the 3D world.
+TeleportMethod	TeleportToSpawnByName TeleportToPlaceInstance TeleportToPrivateServer TeleportPartyAsync TeleportToVIPServer TeleportToInstanceBack TeleportUnknown	
+TeleportResult	Success Failure GameNotFound GameEnded GameFull Unauthorized Flooded IsTeleporting	Describes the result of a teleport.
+TeleportState	RequestedFromServer Started WaitingForServer Failed InProgress	Determines the current teleportation state of a player.
+TeleportType	ToPlace ToInstance ToReservedServer ToVIPServer ToInstanceBack	Determines the type of teleport destination for a `Class.TeleportService` teleport call.
+TerrainAcquisitionMethod	None Legacy Template Generate Import Convert EditAddTool EditSeaLevelTool EditReplaceTool RegionFillTool RegionPasteTool Other	
+TerrainFace	Top Side Bottom	
+TextChatMessageStatus	Unknown Success Sending TextFilterFailed Floodchecked InvalidPrivacySettings InvalidTextChannelPermissions MessageTooLong ModerationTimeout	Indicates the status of a `Class.TextChatMessage`.
+TextDirection	Auto LeftToRight RightToLeft	
+TextFilterContext	PublicChat PrivateChat	
+TextInputType	Default NoSuggestions Number Email Phone Password PasswordShown Username OneTimePassword NewPassword NewPasswordShown	
+TextTruncate	None AtEnd SplitWord	Controls the truncation of text when using the `TextTruncate` property.
+TextureMode	Stretch Wrap Static	Describes how the texture of a `Class.Trail` or `Class.Beam` behaves.
+TextureQueryType	NonHumanoid NonHumanoidOrphaned Humanoid HumanoidOrphaned	Used to get memory information about textures.
+TextXAlignment	Left Right Center	Determines horizontal alignment of text.
+TextYAlignment	Top Center Bottom	Determines vertical alignment of text.
+ThreadPoolConfig	Auto Threads1 Threads2 Threads3 Threads4 Threads8 Threads16 PerCore1 PerCore2 PerCore3 PerCore4	Thread pooling scheme for the task scheduler.
+ThrottlingPriority	Default ElevatedOnServer Extreme	Amount of throttling to apply.
+ThumbnailSize	Size48x48 Size180x180 Size420x420 Size60x60 Size100x100 Size150x150 Size352x352	
+ThumbnailType	HeadShot AvatarBust AvatarThumbnail	
+TickCountSampleMethod	Fast Benchmark Precise	Controls the precision of a timer.
+TonemapperPreset	Default Retro	
+TopBottom	Top Center Bottom	Sets where the object is on the side of its parent.
+TouchCameraMovementMode	Default Classic Follow Orbital	Changes the touch camera movement mode currently in-use by the client using a TouchEnabled device.
+TouchMovementMode	Default Thumbstick DPad Thumbpad ClickToMove DynamicThumbstick	The movement mode used by a client with a TouchEnabled device.
+TrackerError	Ok NoService InitFailed NoVideo VideoError VideoNoPermission VideoUnsupported NoAudio AudioError AudioNoPermission UnsupportedDevice	
+TrackerExtrapolationFlagMode	ForceDisabled ExtrapolateFacsAndPose ExtrapolateFacsOnly Auto	
+TrackerFaceTrackingStatus	FaceTrackingSuccess FaceTrackingNoFaceFound FaceTrackingUnknown FaceTrackingLost FaceTrackingHasTrackingError FaceTrackingIsOccluded FaceTrackingUninitialized	
+TrackerLodFlagMode	ForceFalse ForceTrue Auto	
+TrackerLodValueMode	Force0 Force1 Auto	
+TrackerMode	None Audio Video AudioVideo	
+TrackerPromptEvent	LODCameraRecommendDisable	
+TrackerType	None Face UpperBody	
+TriStateBoolean	Unknown True False	
+TweenStatus	Canceled Completed	The completion status of a `Class.GuiObject` tween function.
+UICaptureMode	All None	Used to determine what UI elements should be captured with `Class.CaptureService`.
+UIDragDetectorBoundingBehavior	Automatic EntireObject HitPoint	Used with `Class.UIDragDetector` to determine bounding behavior of the dragged UI object when `Class.UIDragDetector.BoundingUI` is set.
+UIDragDetectorDragRelativity	Absolute Relative	Used with `Class.DragDetector` to set the paradigm which defines the relativity of inputs/outputs from a custom drag function.
+UIDragDetectorDragSpace	Parent LayerCollector Reference	Used with `Class.DragDetector` to set the paradigm which defines the space of inputs/outputs from a custom drag function.
+UIDragDetectorDragStyle	TranslatePlane TranslateLine Rotate Scriptable	Used with `Class.UIDragDetector` as the paradigm to generate proposed motion, given a stream of input position vectors.
+UIDragDetectorResponseStyle	Offset Scale CustomOffset CustomScale	Describes how the clicked `Class.GuiObject` will be treated once the desired motion has been calculated.
+UIDragSpeedAxisMapping	XY XX YY	Used with `Class.UIDragDetector.UIDragSpeedAxisMapping` to determine the **X**/**Y** dimension dragging speeds.
+UIFlexAlignment	None Fill SpaceAround SpaceBetween SpaceEvenly	In a `Class.UIListLayout` flex layout, specifies how to distribute extra space in the parent container.
+UIFlexMode	None Grow Shrink Fill Custom	Used with `Class.UIFlexItem.FlexMode` to define how the parent `Class.GuiObject` grows or shrinks.
+UiMessageType	UiMessageError UiMessageInfo	Controls the UI message under the `Class.GuiService`.
+UITheme	Light Dark	
+UploadCaptureResult	Success NeedPermission CaptureModerated CaptureNotInGallery IneligibleCapture UploadQuotaReached UploadPending UploadFailed	
+UsageContext	Default Preview	
+UserCFrame	Head LeftHand RightHand Floor	Determines what body part is being tracked by a VR device, and what its CFrame actually is.
+UserInputState	Begin Change End Cancel None	This enum describes the state of an input that is currently or was recently performed.
+UserInputType	MouseButton1 MouseButton2 MouseButton3 MouseWheel MouseMovement Touch Keyboard Focus Accelerometer Gyro Gamepad1 Gamepad2 Gamepad3 Gamepad4 Gamepad5 Gamepad6 Gamepad7 Gamepad8 TextInput InputMethod None	Describes the type of a user input event.
+VelocityConstraintMode	Line Plane Vector	The velocity constraint mode property controls how the linear velocity of the attachment(s) is constrained.
+VerticalAlignment	Center Top Bottom	Used by `Class.UIGridStyleLayout.VerticalAlignment` to align the layout vertically within its parent.
+VerticalScrollBarPosition	Right Left	This enum is used for `Class.ScrollingFrame.VerticalScrollBarPosition` to indicate vertical scroll bar positioning.
+VibrationMotor	Large Small LeftTrigger RightTrigger LeftHand RightHand	Describes various types of haptic motor sizes and locations.
+VideoCaptureResult	Success OtherError ScreenSizeChanged TimeLimitReached	
+VideoCaptureStartedResult	Success OtherError CapturingAlready NoDeviceSupport NoSpaceOnDevice	
+VideoDeviceCaptureQuality	Default Low Medium High	
+VideoError	Ok Eof EAgain BadParameter AllocFailed CodecInitFailed CodecCloseFailed DecodeFailed ParsingFailed Unsupported Generic DownloadFailed StreamNotFound EncodeFailed CreateFailed NoPermission NoService ReleaseFailed Unknown	
+VideoSampleSize	Small Medium Large Full	The size of textures produced by `Class.VideoSampler`.
+ViewMode	None GeometryComplexity Transparent Decal	
+VirtualCursorMode	Default Disabled Enabled	Enables Virtual Cursor mode within an experience.
+VirtualInputMode	None Recording Playing	
+VoiceChatDistanceAttenuationType	Inverse Legacy	Enum used for preset distance attenuation curve options in the default voice chat setup.
+VoiceChatState	Idle Joining JoiningRetry Joined Leaving Ended Failed	
+VoiceControlPath	Publish Subscribe Join	
+VolumetricAudio	Disabled Automatic Enabled	Controls how the engine renders volumetric audio effects.
+VRComfortSetting	Comfort Normal Expert Custom	
+VRControllerModelMode	Disabled Transparent	
+VRDeviceType	Unknown OculusRift HTCVive ValveIndex OculusQuest	
+VRLaserPointerMode	Disabled Pointer DualPointer	
+VRSafetyBubbleMode	NoOne OnlyFriends Anyone	
+VRScaling	World Off	
+VRSessionState	Undefined Idle Visible Focused Stopping	
+VRTouchpad	Left Right	Used to universally identify a VR touchpad that is used by either the left, or right hand.
+VRTouchpadMode	Touch VirtualThumbstick ABXY	Used to identify the behavior of a specified VR touchpad.
+WaterDirection	NegX X NegY Y NegZ Z	This Enum was once used to set the direction of `Class.Terrain` water.
+WaterForce	None Small Medium Strong Max	The WaterForce Enum is used to work with `Class.Terrain` water cells.
+WebSocketState	Connecting Open Closing Closed	
+WebStreamClientState	Connecting Open Error Closed	WebStreamClientState indicates the current state of a WebStreamClient object.
+WebStreamClientType	SSE RawStream WebSocket	Specifies what type of streaming to use when creating a `Class.WebStreamClient`.
+WeldConstraintPreserve	All None Touching	
+WhenUserFirstPlayed	Unknown Days0To30 Days31To90 Days91To180 Days181To365 Days366Plus	Describes when a player first played the current experience, represented as a bucket.
+WhisperChatPrivacyMode	AllUsers NoOne	
+WrapLayerAutoSkin	Disabled EnabledPreserve EnabledOverride	
+WrapLayerDebugMode	None BoundCage LayerCage BoundCageAndLinks Reference Rbf OuterCage ReferenceMeshAfterMorph HSROuterDetail HSROuter HSRInner HSRInnerReverse LayerCageFittedToBase LayerCageFittedToPrev PreWrapDeformerOuterCage SkinningTransfer	The Studio-only property for quickly visualizing and debugging meshes with inner cage and outer cages.
+WrapTargetDebugMode	None TargetCageOriginal TargetCageCompressed TargetCageInterface TargetLayerCageOriginal TargetLayerCageCompressed TargetLayerInterface Rbf OuterCageDetail PreWrapDeformerCage	The Studio-only property for quickly visualizing and debugging meshes with only outer cages.
+ZIndexBehavior	Global Sibling	Used by `Class.LayerCollector.ZIndexBehavior` to control how the `Class.GuiObject.ZIndex` property behaves for descendants.

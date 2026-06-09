@@ -1,0 +1,653 @@
+Accessory	Accoutrement	An item that a Character can wear.
+AccessoryDescription	Instance	Describes the appearance of an `Class.Accessory` for the `Class.HumanoidDescription`.
+Accoutrement	Instance	An object that can attach to a player's character.
+Actor	Model	An `Class.Actor` is a container for code that can be safely split into its own thread.
+AdGui	SurfaceGuiBase	
+AdPortal	Instance	
+AdService	Instance	A class that allows the display of mobile video ads.
+AdvancedDragger	Instance	An unfinished advanced variant of the `Class.Dragger` class.
+AirController	ControllerBase	
+AlignOrientation	Constraint	Constraint which applies torque to align two attachments, or to align one attachment with a goal orientation.
+AlignPosition	Constraint	Constraint which applies force to move two attachments together, or to move one attachment to a goal position.
+AnalyticsService	Instance	Collection of methods that allows you to track how users interact with your experiences.
+AngularVelocity	Constraint	Applies torque on an assembly to maintain a constant angular velocity.
+Animation	Instance	References an animation asset which can be loaded by an `Class.AnimationController`.
+AnimationClip	Instance	Represents all types of animation data that the Roblox animation system can consume.
+AnimationClipProvider	Instance	Provides functions to load and preview `Class.AnimationClip|AnimationClips`.
+AnimationConstraint	Constraint	Aligns two `Class.BasePart|BaseParts` with an animate-able kinematic or force-based joint.
+AnimationController	Instance	Allows animations to be loaded and applied to a character or model in place of a `Class.Humanoid`.
+AnimationFromVideoCreatorService	Instance	
+AnimationNodeDefinition	Instance	
+AnimationRigData	Instance	Used to store information regarding the model an animation was authored for.
+AnimationTrack	Instance	Controls the playback of an animation on an `Class.Animator`.
+Animator	Instance	Responsible for the playback and replication of `Class.Animation|Animations`.
+Annotation	Instance	
+ArcHandles	HandlesBase	The `Class.ArcHandles` object places 3D arc handles around any 3D object that its `Class.PartAdornment.Adornee|Adornee` is set to.
+AssetDeliveryProxy	Instance	
+AssetPatchSettings	Instance	
+AssetService	Instance	A non-replicated service that handles asset-related queries to the Roblox web API.
+Atmosphere	Instance	The `Class.Atmosphere` object pushes Roblox closer toward realistic environments where sunlight scatters in different ways depending on density and other air particle properties.
+AtmosphereSensor	SensorBase	A `Class.SensorBase` that outputs data about the `Class.AtmosphereSensor.AirDensity|AirDensity` and `Class.AtmosphereSensor.RelativeWindVelocity|RelativeWindVelocity` at the sensor's position.
+Attachment	Instance	Defines a point and orientation relative to an ancestor `Class.PVInstance`, `Class.Bone`, or another `Class.Attachment`.
+AudioAnalyzer	Instance	Takes measurements from audio streams that are connected to it via one or more `Class.Wire|Wires`.
+AudioChannelMixer	Instance	Combines multiple audio streams into a single, multichannel audio stream.
+AudioChannelSplitter	Instance	Splits an audio stream into component channels so that each can be processed independently.
+AudioChorus	Instance	Makes an audio stream sound more voluminous. If applied to a single voice, it may sound like multiple voices.
+AudioCompressor	Instance	Adjusts the dynamic range of input streams.
+AudioDeviceInput	Instance	Produces audio streams from physical devices, such as microphones.
+AudioDeviceOutput	Instance	Accepts audio streams to be rendered out to physical hardware devices such as speakers or headphones.
+AudioDistortion	Instance	Distorts audio streams, making them sound fuzzier, grittier, and louder.
+AudioEcho	Instance	Overlays delayed copies of audio streams.
+AudioEmitter	Instance	Emits audio streams into the world.
+AudioEqualizer	Instance	Adjusts the frequency content of audio streams.
+AudioFader	Instance	Adjusts the volume of audio streams.
+AudioFilter	Instance	Adjusts the frequency content of audio streams.
+AudioFlanger	Instance	Imparts a whooshing or sweeping sound on audio streams.
+AudioGate	Instance	Mutes audio streams that fall below a certain volume threshold.
+AudioLimiter	Instance	Limits how loud audio streams are allowed to be.
+AudioListener	Instance	Records an audio stream from its surrounding `Class.AudioEmitter|AudioEmitters` in the 3D world.
+AudioPages	Pages	A special version of the `Class.Pages` class returned by `Class.AssetService:SearchAudioAsync()`.
+AudioPitchShifter	Instance	Adjusts the perceived pitch of audio streams.
+AudioPlayer	Instance	Used to play audio assets.
+AudioRecorder	Instance	Records audio streams in-experience.
+AudioReverb	Instance	Reverberates audio streams.
+AudioSearchParams	Instance	Instance to be passed to `Class.AssetService:SearchAudioAsync()` to search for audio assets.
+AudioSpeechToText	Instance	Converts spoken audio into text.
+AudioTextToSpeech	Instance	Plays text as speech audio.
+AudioTremolo	Instance	Creates a trembling effect on a sound by varying the volume of the sound up and down.
+AvatarCreationService	Instance	A service to support developer avatar creators.
+AvatarEditorService	Instance	A service to support developer Avatar Editors.
+Backpack	Instance	A container object that holds a player's inventory. Any `Class.Tool` in a player's `Backpack` will be displayed in their inventory at the bottom of the screen.
+BackpackItem	Model	BackpackItem is an abstract class for backpack items such as HopperBins and Tools.
+BadgeService	Instance	Provides information on badges and awards them.
+BallSocketConstraint	Constraint	Forces its two attachments into the same position and allows them to freely rotate about all three axes, with optional limits to restrict both tilt and twist.
+BanHistoryPages	Pages	Returned by `Class.Players:GetBanHistoryAsync` to view the entire ban and unban history of any UserId.
+BaseCoreGuiConfiguration	Instance	
+BasePart	PVInstance	The abstract base class for in-world objects that physically interact.
+BasePlayerGui	Instance	`BasePlayerGui` is an abstract class which the GUI drawing storage classes inherit from.
+BaseRemoteEvent	Instance	
+BaseScript	LuaSourceContainer	The base class for all script objects which run automatically.
+BaseWrap	Instance	
+Beam	Instance	Connects two `Class.Attachment|Attachments` by drawing a texture between them.
+BevelMesh	DataModelMesh	An abstract class that `Class.BlockMesh` and `Class.CylinderMesh` inherit from.
+BillboardGui	LayerCollector	A container for `Class.GuiObject|GuiObjects` that renders in 3D space facing the camera.
+BinaryStringValue	ValueBase	An internal type of `Class.StringValue` object, that stores a `BinaryString` value.
+BindableEvent	Instance	An object which enables custom events through asynchronous one-way communication between scripts on the same side of the client-server boundary. Scripts firing a `Class.BindableEvent` do not yield.
+BindableFunction	Instance	An object which allows for synchronous two-way communication between scripts on the same side of the client-server boundary. Scripts invoking a `Class.BindableFunction` yield until the corresponding callback is found.
+BlockMesh	BevelMesh	The BlockMesh object applies a 'brick' mesh to the `Class.BasePart` it is parented to. It behaves identically to a `Class.SpecialMesh` with `Class.SpecialMesh.MeshType` set to 'Brick'.
+BloomEffect	PostEffect	Simulates the camera viewing a very bright light.
+BlurEffect	PostEffect	Applies a blur to the entire game world.
+BodyAngularVelocity	BodyMover	Applies a torque to maintain a constant angular velocity.
+BodyColors	CharacterAppearance	For a Humanoid character, the BodyColors will specify the colors for the different body parts.
+BodyForce	BodyMover	Applies a constant force to an object.
+BodyGyro	BodyMover	Applies a torque to maintain a constant orientation.
+BodyMover	Instance	Base class for objects that continually exert forces to assemblies.
+BodyPartDescription	Instance	Describes the appearance of an avatar body part for the `Class.HumanoidDescription`.
+BodyPosition	BodyMover	Applies a force to maintain a constant position.
+BodyThrust	BodyMover	Applies a constant force to an object at a specific point.
+BodyVelocity	BodyMover	Applies a force to maintain a constant velocity.
+Bone	Attachment	Bones are non-rendered objects that drive the movement of one or more parts for the purposes of animation, or creating clothing and characters.
+BoolValue	ValueBase	A container object for a single boolean value.
+BoxHandleAdornment	HandleAdornment	A box-shaped handle that can be adorned to a `Class.BasePart`.
+BrickColorValue	ValueBase	A container object for a single BrickColor value.
+BrowserService	Instance	
+BubbleChatConfiguration	TextChatConfigurations	Allows for customization of text chat bubbles through `Class.TextChatService`.
+BubbleChatMessageProperties	TextChatMessageProperties	
+BuoyancySensor	SensorBase	A `Class.SensorBase` that outputs data about how its `Class.BasePart` is interacting with `Class.Terrain` water.
+CacheableContentProvider	Instance	A variant of the `Class.ContentProvider` that caches assets that have already been received. This service is not used directly, but it is used by the services that inherit from it.
+Camera	PVInstance	A class which defines a view of the 3D world.
+CanvasGroup	GuiObject	Blends descendants as a group with color/transparency.
+Capture	Object	A class which defines a piece of content, such as a screenshot or video, taken in-experience.
+CaptureService	Instance	A service which provides control over screenshot and video capture features.
+CapturesPages	Pages	A special version of the `Class.Pages` class returned by `Class.CaptureService.ReadCapturesFromGalleryAsync`.
+CapturesViewConfiguration	BaseCoreGuiConfiguration	
+CatalogPages	Pages	
+CFrameValue	ValueBase	A container object for a single CFrame value.
+ChangeHistoryService	Instance	**Must** be used by plugins to communicate to Studio how to undo and redo the changes which they make to the experience.
+ChannelTabsConfiguration	TextChatConfigurations	Configures properties of the optional channel tabs in the default chat window.
+CharacterAppearance	Instance	The base class for objects that change the character's appearance, such as the `Class.BodyColors`, `Class.CharacterMesh`, `Class.ShirtGraphic`, `Class.Pants` and `Class.Shirt` objects.
+CharacterMesh	CharacterAppearance	Modifies the appearance of an R6 body part.
+Chat	Instance	Houses the Luau code responsible for running the legacy chat system.
+ChatInputBarConfiguration	TextChatConfigurations	Configures properties of the default chat input bar.
+ChatWindowConfiguration	TextChatConfigurations	Configures properties of the default chat window.
+ChatWindowMessageProperties	TextChatMessageProperties	
+ChorusSoundEffect	SoundEffect	Makes audio more voluminous by simulating multiple voices playing the same part.
+ClickDetector	Instance	An object that provides user input on in-experience `Class.BasePart|BaseParts` and `Class.Model|Models`.
+ClientReplicator	NetworkReplicator	
+ClimbController	ControllerBase	
+Clothing	CharacterAppearance	Clothing is the base class for the `Class.Shirt` and `Class.Pants` clothing objects.
+Clouds	Instance	Renders realistic clouds that drift slowly across the sky.
+ClusterPacketCache	Instance	An internal service meant to cache cluster packets.
+CollectionService	Instance	A service which manages instance collections using assigned tags.
+Color3Value	ValueBase	A container object for a single Color3 value.
+ColorCorrectionEffect	PostEffect	Adjusts color-related properties of the rendered world like saturation, tint, brightness, and contrast.
+ColorGradingEffect	PostEffect	Modifies how color values calculated by the renderer should be converted to the screen's color range.
+CommerceService	Instance	Supports real-world purchases that you can bundle with digital benefits.
+CompositeValueCurve	Instance	An animation curve that groups child `Class.FloatCurve|FloatCurves` which each animate a different component of a non-unary value.
+CompressorSoundEffect	SoundEffect	Adjusts the dynamic range of audio.
+ConeHandleAdornment	HandleAdornment	A cone-shaped handle that can be adorned to a `Class.BasePart`.
+ConfigService	Instance	A game service that gives access to in-experience configuration with updates in real time.
+ConfigSnapshot	Object	A snapshot of configuration values at a given version. Can be player-specific.
+Configuration	Instance	A container object designed to hold value objects. Makes values used in `Class.Tool|Tools` or any model using `Class.Script|Scripts` more accessible.
+ConfigureServerService	Instance	
+Constraint	Instance	The base class for constraint-based objects.
+ContentProvider	Instance	Service that is used to load content, or assets, into a game.
+ContextActionService	Instance	A service used to bind user input to contextual actions.
+Controller	Instance	The base class for controller objects, such as the `Class.HumanoidController` object.
+ControllerBase	Instance	
+ControllerManager	Instance	Manages simulated motion control for its assigned `Class.ControllerManager.RootPart` .
+ControllerPartSensor	ControllerSensor	A `Class.SensorBase` that outputs data about another `Class.BasePart` based on `Class.Humanoid` floor and ladder detection logic.
+ControllerSensor	SensorBase	
+ControllerService	Instance	Container class for the `Class.HumanoidController` among other classes.
+CookiesService	Instance	A backend service used by Roblox to control HTTP cookies. Its functions are not available to developers.
+CoreGui	BasePlayerGui	The CoreGui is a service used to store Guis created in-game by Roblox for the core user interface found in every game (such as the game menu, the playerlist, the backpack, etc.). It can also be used by `Class.Plugin|Plugins` in Roblox Studio.
+CoreGuiConfiguration	Instance	
+CoreScriptDebuggingManagerHelper	Instance	
+CornerWedgePart	BasePart	
+CreatorStoreService	Instance	
+CurveAnimation	AnimationClip	Stores animation data in the form of curves for each individual channel to animate.
+CustomEvent	Instance	
+CustomEventReceiver	Instance	
+CustomLog	Instance	
+CylinderHandleAdornment	HandleAdornment	A cylinder-shaped handle that can be adorned to a `Class.BasePart`.
+CylinderMesh	BevelMesh	The CylinderMesh object applies a 'cylinder' mesh to the `Class.BasePart` it is parented to.
+CylindricalConstraint	SlidingBallConstraint	Constrains two attachments on two parts to have a relative linear and rotational motion.
+DataModel	ServiceProvider	The root of Roblox's parent-child hierarchy. Its direct children are services, such as `Class.Workspace` and `Class.Lighting`, that act as the fundamental components of a Roblox game.
+DataModelMesh	Instance	The DataModelMesh is an abstract class from which mesh classes descend.
+DataModelSession	Instance	
+DataStore	GlobalDataStore	
+DataStoreGetOptions	Instance	
+DataStoreIncrementOptions	Instance	Specifies additional parameters for a `Class.GlobalDataStore:IncrementAsync()` call.
+DataStoreInfo	Instance	Object describing data store information.
+DataStoreKey	Instance	Object representing a key on a `Class.DataStoreKeyPages` object.
+DataStoreKeyInfo	Instance	An object specifying information about a particular version of the key.
+DataStoreKeyPages	Pages	A special type of `Class.Pages` object whose pages contain `Class.DataStoreKey` instances.
+DataStoreListingPages	Pages	A special type of `Class.Pages` object whose pages contain `Class.DataStoreInfo` instances.
+DataStoreObjectVersionInfo	Instance	An instance describing version information for a key.
+DataStoreOptions	Instance	Object used to provide additional parameters to `Class.DataStoreService:GetDataStore()`.
+DataStorePages	Pages	A `Class.Pages` object that allows iteration through `Class.OrderedDataStore` key/value pairs.
+DataStoreService	Instance	A game service that gives access to persistent data storage across places in a game.
+DataStoreSetOptions	Instance	Specifies additional parameters for a `Class.GlobalDataStore:SetAsync()` call.
+DataStoreVersionPages	Pages	A special type of `Class.Pages` object whose pages contain `Class.DataStoreObjectVersionInfo` instances.
+Debris	Instance	Allows scheduling the guaranteed destruction of an object without yielding.
+DebugSettings	Instance	Collection of various developer-facing diagnostics information.
+Decal	FaceInstance	Applies an image texture to a face of a parent `Class.BasePart`.
+DepthOfFieldEffect	PostEffect	Simulates a camera lens by blurring parts of a scene not in focus.
+Dialog	Instance	Creates NPC billboard-style dialog bubbles.
+DialogChoice	Instance	Used to craft the further choices available to players who have started a dialog conversation with an NPC.
+DigitsRigDescription	Instance	
+DistortionSoundEffect	SoundEffect	Distorts audio, making it sound fuzzier and overdriven.
+DockWidgetPluginGui	PluginGui	
+DoubleConstrainedValue	ValueBase	An instance which is used to create a number value which can never be less than the MinValue or more than the MaxValue.
+DraftsService	Instance	
+DragDetector	ClickDetector	Instance which facilitates and encourages interaction with 3D objects in an experience.
+Dragger	Instance	A helper object used to create tools that can drag parts.
+DraggerService	Instance	
+DynamicRotate	JointInstance	The base class for classic motor joints.
+EchoSoundEffect	SoundEffect	Adds delayed repetitions of a sound with diminishing volume.
+EditableImage	Object	Object which allows for the runtime creation and manipulation of images.
+EditableMesh	Object	Object which allows for the runtime creation and manipulation of meshes.
+EncodingService	Instance	Service providing common encoding, hashing, and compression methods.
+EqualizerSoundEffect	SoundEffect	Controls the volume of incoming audio across three frequency ranges.
+EulerRotationCurve	Instance	Represents a 3D rotation curve through a group of three `Class.FloatCurve|FloatCurves`.
+ExperienceInviteOptions	Instance	Used to customize a player invite prompt.
+ExperienceNotificationService	Instance	Service containing methods to validate users and prompt them to enable experience notifications.
+Explosion	Instance	Applies force to `Class.BasePart|BaseParts` within the explosion's `Class.Explosion.BlastRadius`. Breaks `Class.JointInstance|JointInstances` and `Class.WeldConstraint|WeldConstraints` between parts and kills `Class.Humanoid` characters not protected by a `Class.ForceField`.
+FaceControls	Instance	The `Class.FaceControls` object defines a set of properties for controlling the facial expressions of a Dynamic Head.
+FaceInstance	Instance	An abstract class from which the `Class.Decal` and `Class.Texture` classes inherit.
+Feature	Instance	The base class for the legacy motor system.
+FeatureRestrictionManager	Instance	
+File	Instance	An asset loaded from a file on disk.
+FileMesh	DataModelMesh	The FileMesh object applies a mesh to a `Class.BasePart` when parented to it. Its properties are inherited by the `Class.SpecialMesh` object.
+Fire	Instance	A preconfigured particle emitter with the visual aesthetic of fire.
+Flag	Tool	The Flag object helps you make 'capture the flag' style games.
+FlagStand	Part	The FlagStand object helps you make 'capture the flag' style games.
+FlagStandService	Instance	An internal service responsible for handling the now deprecated `Class.FlagStand` and `Class.Flag` objects.
+FlangeSoundEffect	SoundEffect	Creates a sweeping or swooshing effect on a sound.
+FloatCurve	Instance	A sorted list of time-value pairs that define a curve. Used to animate a single numerical value.
+FloorWire	GuiBase3d	A FloorWire attempts to make a wire from two of its properties: `Class.FloorWire.From` and `Class.FloorWire.From`, which both need to be set to a `Class.BasePart`.
+FluidForceSensor	SensorBase	A `Class.SensorBase` that outputs `Class.FluidForceSensor.Force|Force`, `Class.FluidForceSensor.Torque|Torque` and `Class.FluidForceSensor.CenterOfPressure|CenterOfPressure`.
+Folder	Instance	A simple container used to hold and organize Roblox instances.
+ForceField	Instance	Protects a `Class.Humanoid` from taking damage dealt through the `Class.Humanoid:TakeDamage()` method and protects `Class.BasePart|BaseParts` from having their joints broken due to an `Class.Explosion`.
+FormFactorPart	BasePart	The FormFactorPart class is an abstract class. It inherits from the BasePart class and adds the FormFactor property to classes that inherit from it.
+Frame	GuiObject	A `Class.GuiObject` that renders as a plain rectangle, generally used as a container.
+FriendPages	Pages	A special version of `Class.Pages` that contains information about a player's friends.
+FriendService	Instance	An internal service which is used to send, cancel, accept and decline friend requests in-game.
+FunctionalTest	Instance	
+GamepadService	Instance	The GamepadService is internally responsible for handling inputs from various controllers, such as Xbox One or PlayStation DualShock controllers.
+GamePassService	Instance	A service associated with the legacy game pass system. Use `Class.MarketplaceService` for all new work.
+GameSettings	Instance	A container for miscellaneous in-game options.
+GeneratedFolder	Folder	A container that stores `Class.ProceduralModel` generation results.
+GenerationService	Instance	Service that allows developers to generate 3D objects from text prompts.
+GenericChallengeService	Instance	
+GenericSettings	ServiceProvider	The abstract class for settings database classes.
+Geometry	Instance	An internal Roblox service which cannot be used by developers.
+GeometryService	Instance	Service containing geometric operations.
+GetTextBoundsParams	Instance	Use with `Class.TextService:GetTextBoundsAsync()` to measure the size of text.
+GlobalDataStore	Instance	An object that exposes methods to access a single data store.
+GlobalSettings	GenericSettings	Collection of menu settings for Roblox Studio.
+Glue	JointInstance	Glue is a type of joint that can break when enough force is applied.
+GroundController	ControllerBase	
+GroupService	Instance	GroupService is a service that allows developers to fetch information about a Roblox group from within a game.
+GuiBase	Instance	GuiBase is an abstract class which most graphical user interface objects inherit from.
+GuiBase2d	GuiBase	An abstract class inherited by 2D `Class.GuiObject|GuiObjects`.
+GuiBase3d	GuiBase	An abstract class for 3D GUI elements that are rendered in the world.
+GuiButton	GuiObject	An abstract class for interactive 2D user interface elements.
+GuidRegistryService	Instance	An internal service, whose functionality is not accessible to developers.
+GuiLabel	GuiObject	An abstract class for non-interactive 2D user interface elements.
+GuiMain	ScreenGui	The original name of the `Class.ScreenGui`.
+GuiObject	GuiBase2d	An abstract class for all 2D user interface objects.
+GuiService	Instance	Offers numerous properties and methods for working with `Class.GuiObject|GuiObjects`, player preferences, and other UI‑related tasks.
+HandleAdornment	PVAdornment	An abstract class inherited by 3D handle adornments.
+Handles	HandlesBase	Places 3D handles around any object that its `Class.Handles.Adornee|Adornee` is set to.
+HandlesBase	PartAdornment	An abstract class for Handle objects, such as `Class.ArcHandles` and `Class.Handles`.
+HapticEffect	Instance	
+HapticService	Instance	Provides haptic feedback to controllers and devices.
+Hat	Accoutrement	
+HeapProfilerService	Instance	
+HeightmapImporterService	Instance	
+HiddenSurfaceRemovalAsset	Instance	
+Highlight	Instance	A visual effect which you can use to call attention to a specific object within an experience.
+HingeConstraint	Constraint	Constrains its attachments to rotate about a single axis.
+Hint	Message	A Hint is an object that creates a small black bar at the very top of the screen with text.
+Hole	Feature	
+Hopper	Instance	Hopper is the original name of the StarterPack service.
+HopperBin	BackpackItem	
+HSRDataContentProvider	CacheableContentProvider	
+HttpRbxApiService	Instance	An internal service whose functionality is not available to developers.
+HttpService	Instance	Allows sending HTTP requests and provides various web-related and JSON methods.
+Humanoid	Instance	A special object that gives models the functionality of a character.
+HumanoidController	Controller	
+HumanoidDescription	Instance	Describes the appearance of a Humanoid character including body parts, accessories, colors, scales, animations, and emotes.
+HumanoidRigDescription	Instance	
+IKControl	Instance	Specifies a control to generate a procedural animation pose using Inverse Kinematics.
+ILegacyStudioBridge	Instance	
+ImageButton	GuiButton	A 2D user interface element that displays an interactive image.
+ImageHandleAdornment	HandleAdornment	An image handle that can be adorned to a `Class.BasePart`.
+ImageLabel	GuiLabel	A 2D user interface element that displays a single non-interactive image.
+IncrementalPatchBuilder	Instance	
+InputAction	Instance	Defines a gameplay action mechanic. These actions are then mapped to hardware inputs using `Class.InputBinding`.
+InputBinding	Instance	Defines which hardware binding should trigger the parent `Class.InputAction`.
+InputContext	Instance	Collection of actions which holds related actions and defines how they interact with other contexts/actions.
+InputObject	Instance	An object created when an input begins that describes a particular user input.
+InsertService	Instance	Used to insert assets from the Roblox website.
+Instance	Object	`Instance` is the base class for all classes in the Roblox class hierarchy which can be part of the `Class.DataModel` tree.
+InstanceAdornment	GuiBase3d	A base class for all objects that adorn `Class.Instance` classes.
+InstanceFileSyncService	Instance	A service for interacting with file sync from a plugin.
+IntConstrainedValue	ValueBase	An IntConstrainedValue is used to store a value which can never be less than MinValue and can never be more than MaxValue.
+IntersectOperation	PartOperation	Result of parts that have been intersected into a single solid model.
+IntValue	ValueBase	A container object for a single integer.
+InventoryPages	Pages	
+JointInstance	Instance	The base class for joints.
+JointsService	Instance	A service that stores joints created by surface connections.
+KeyboardService	Instance	
+Keyframe	Instance	A Keyframe holds the `Class.Pose|Poses` applied to joints in a `Class.Model` at a given point of time in an animation. `Class.Keyframe|Keyframes` are interpolated between during animation playback.
+KeyframeMarker	Instance	An instance meant to represent an event that will eventually be fired when a `Class.Keyframe` is hit.
+KeyframeSequence	AnimationClip	This object stores all of the `Class.Keyframe|Keyframes` and other data for the animation.
+KeyframeSequenceProvider	Instance	Provides functions to load and preview `Class.KeyframeSequence`.
+LayerCollector	GuiBase2d	The base class of 2D UI containers which render `Class.GuiObject|GuiObjects` in layers.
+Light	Instance	Light is a root class for dynamic lighting related objects.
+Lighting	Instance	The `Lighting` service controls global lighting in an experience. It includes a range of adjustable properties that you can use to change how lighting appears and interacts with other objects.
+LinearVelocity	Constraint	Applies force on an assembly to maintain a constant linear velocity.
+LineForce	Constraint	Applies a force along the theoretical line connecting its two `Class.Attachment|Attachments`.
+LineHandleAdornment	HandleAdornment	A line-shaped handle that can be adorned to a `Class.BasePart`.
+LocalizationService	Instance	Handles automated translation.
+LocalizationTable	Instance	A LocalizationTable is a database of translations. It contains source strings and translations for various languages.
+LocalScript	Script	An object that contains and runs Luau code on the client (player's device) instead of the server.
+LoginService	Instance	An internal service whose functionality is not available to developers.
+LogService	Instance	A service that allows you to read outputted text.
+LuaSettings	Instance	
+LuaSourceContainer	Instance	The base class for all objects which contain Luau code.
+LuaWebService	Instance	An internal service, which is responsible for retrieving HTTP data from websites. Used by a range of services, including `Class.MarketplaceService`, `Class.InsertService` and `Class.HttpService`. Its functions cannot be accessed by developers.
+MakeupDescription	Instance	Describes the appearance of a makeup item for the `Class.HumanoidDescription`.
+ManualGlue	ManualSurfaceJointInstance	ManualGlue is a joint created in a similar manner to the `Class.ManualWeld` class. It functions identically to the `Class.Glue` class.
+ManualSurfaceJointInstance	JointInstance	ManualSurfaceJointInstance is the base class for `Class.ManualGlue` and `Class.ManualWeld`.
+ManualWeld	ManualSurfaceJointInstance	Holds two parts together and functions identically to `Class.Weld`.
+MarkerCurve	Instance	Represents a list of strings markers in chronological order.
+MarketplaceService	Instance	The service responsible for in-experience transactions.
+MatchmakingService	Instance	The service responsible for managing custom matchmaking data.
+MaterialService	Instance	The game service responsible for managing materials.
+MaterialVariant	Instance	Represent a variant of a Material.
+MemoryStoreHashMap	Instance	Provides access to a hash map within `Class.MemoryStoreService`.
+MemoryStoreHashMapPages	Pages	A special type of `Class.Pages` object whose pages contain key-value pairs from a `Class.MemoryStoreHashMap`.
+MemoryStoreQueue	Instance	Provides access to a queue within MemoryStore.
+MemoryStoreService	Instance	Exposes methods to access specific primitives within MemoryStore.
+MemoryStoreSortedMap	Instance	Provides access to a sorted map within `Class.MemoryStoreService`.
+MemStorageConnection	Instance	
+MemStorageService	Instance	
+MeshContentProvider	CacheableContentProvider	An internal Roblox service that is responsible for fetching, parsing and caching meshes. This service cannot be used by developers.
+MeshPart	TriangleMeshPart	A form of `Class.BasePart` that includes a physically simulated custom mesh.
+Message	Instance	Fills the entire screen with a semi-transparent grey background, with centered text in the middle of the screen.
+MessagingService	Instance	Allows servers of the same experience to communicate with each other.
+MicroProfilerService	Instance	
+MLService	Instance	
+MLSession	Object	
+Model	PVInstance	Models are container objects, meaning they group objects together. They are best used to hold collections of `Class.BasePart|BaseParts` and have a number of functions that extend their functionality.
+ModerationService	Instance	
+ModuleScript	LuaSourceContainer	A script type that runs once when `Global.LuaGlobals.require()` is called with it. Returns exactly one value, usually a table of functions, to used by other scripts. Useful for compartmentalizing code.
+Motor	JointInstance	Makes a movable `Class.JointInstance` between two parts.
+Motor6D	Motor	Creates an animatable joint between two `Class.BasePart|BaseParts`.
+MotorFeature	Feature	
+Mouse	Instance	Legacy object that contains members useful for pointer input.
+MouseService	Instance	
+MultipleDocumentInterfaceInstance	Instance	
+NegateOperation	PartOperation	Result of a part that has been negated for use in solid modeling.
+NetworkClient	NetworkPeer	
+NetworkMarker	Instance	The NetworkMarker is used to tell the client when the server has finished loading the world for the client.
+NetworkPeer	Instance	The `NetworkPeer` object is the most basic class of the network objects.
+NetworkReplicator	Instance	An object which handles the replication of other objects either from the server to the client, or from the client to the server.
+NetworkServer	NetworkPeer	
+NetworkSettings	Instance	Settings related to networked engine behaviors.
+NoCollisionConstraint	Instance	An instance used to prevent collisions between two specific parts.
+NotificationService	Instance	An internal service which cannot be used by developers.
+NumberPose	PoseBase	Holds the value applied to a specific FACS control.
+NumberValue	ValueBase	A container object for a single double-precision floating point number.
+Object		`Object` is the base class for all classes in the Roblox class hierarchy.
+ObjectValue	ValueBase	A container object for a reference to another instance.
+OpenCloudApiV1	Instance	
+OpenCloudService	Instance	
+OrderedDataStore	GlobalDataStore	A GlobalDataStore that also allows for ordered data store entries.
+OutfitPages	Pages	The `OutfitPages` class is used in the case of iterating over a user's outfits.
+PackageLink	Instance	Links a `Class.DataModel` instance to a corresponding asset in the cloud.
+PackageService	Instance	
+Pages	Instance	An abstract class for pages objects.
+Pants	Clothing	Displays a Pants texture from the Roblox website to display on a `Class.Humanoid` rig.
+Part	FormFactorPart	A common type of `Class.BasePart` that comes in different primitive shapes.
+PartAdornment	GuiBase3d	An abstract class for GUI elements that are adorned to (displayed as attached to) objects deriving from `Class.BasePart`.
+ParticleEmitter	Instance	A special object that emits customizable 2D particles into the world.
+PartOperation	TriangleMeshPart	An abstract class that all parts based on solid modeling inherit from.
+PartOperationAsset	Instance	An internal service which cannot be used by developers.
+PatchBundlerFileWatch	Instance	
+PatchMapping	Instance	
+Path	Instance	Stores the result of paths created by `Class.PathfindingService:CreatePath()`.
+Path2D	GuiBase	
+PathfindingLink	Instance	Connects two locations which otherwise by default are unconnected.
+PathfindingModifier	Instance	Modifiers used to represent space that has a higher or lower cost to be traversed when creating paths using `Class.PathfindingService`.
+PathfindingService	Instance	Used to find logical paths between two points.
+PermissionsService	Instance	
+PhysicsService	Instance	
+PhysicsSettings	Instance	
+PitchShiftSoundEffect	SoundEffect	Adjusts the pitch of a sound without changing its playback speed.
+PlacesService	Instance	
+Plane	PlaneConstraint	Constrains Attachment0 and Attachment1 such that both points lie in a plane with origin at Attachment0's position and unit normal vector equal to Attachment0's primary axis.
+PlaneConstraint	Constraint	Moves its attachments into a position/orientation along a plane whose normal vector is the primary axis of `Class.Constraint.Attachment0|Attachment0`.
+Platform	Part	Historically a form of `Class.Seat` that wouldn't place the player in a sitting pose. This object is no longer create-able and cannot be used by developers.
+Player	Instance	An object that represents a presently connected client to the experience.
+PlayerGui	BasePlayerGui	A container that holds a player's UI.
+PlayerListConfiguration	BaseCoreGuiConfiguration	
+PlayerMouse	Mouse	The PlayerMouse behaves identically to the `Class.Mouse` object that is obtained using `Class.Tool.Equipped`. Both PlayerMouse and `Class.Mouse` are legacy APIs, superseded by `Class.UserInputService`.
+Players	Instance	A service that contains presently connected `Class.Player` objects.
+PlayerScripts	Instance	A container for client-side scripts to be run inside `Class.Player` objects within the `Class.Players` service.
+PlayerViewService	Instance	Provides a way to get additional information about a player's view.
+Plugin	Instance	
+PluginAction	Instance	
+PluginCapabilities	Instance	
+PluginConnection	Object	Encapsulates a connection between the current data model and another for plugin communication.
+PluginConnectionService	Instance	This service is used by plugins to communicate with other instances of themselves running in other data models.
+PluginDebugService	Instance	
+PluginDragEvent	Instance	
+PluginGui	LayerCollector	
+PluginGuiService	Instance	A service that stores `Class.PluginGui` objects to be displayed in Roblox Studio.
+PluginManagementService	Instance	
+PluginManager	Instance	
+PluginManagerInterface	Instance	
+PluginMenu	Instance	A context menu that can be shown in Studio. Displays a list of `Class.PluginAction|PluginActions` and supports submenus.
+PluginMouse	Mouse	The PluginMouse object gives `Class.Plugin|Plugins` access to the mouse. It works like the `Class.Mouse` object and can be obtained using the plugin `Class.Plugin:GetMouse()` method.
+PluginToolbar	Instance	
+PluginToolbarButton	Instance	
+PointLight	Light	A light source that emits illumination from a single point.
+PointsService	Instance	This service controls the points award system used to showcase a player's achievements and participation throughout Roblox.
+PolicyService	Instance	Helps you query information regarding policy compliance for players around the world based on age range, location, and platform type.
+Pose	PoseBase	Holds the `Datatype.CFrame` applied to the `Class.Motor6D` connected to its associated `Class.BasePart`. The part which is controlled depends on the name of the Pose.
+PoseBase	Instance	Base class of all 'Pose Instance' objects.
+PostEffect	Instance	Abstract base class for post-processing effects.
+PrismaticConstraint	SlidingBallConstraint	Constraint which creates a rigid joint between two `Class.Attachment|Attachments`, allowing them to slide along one axis but not rotate.
+ProceduralModel	Model	Procedural models support edit-time procedural generation. Instead of manually constructing model content, a procedural model generates its contents automatically in response to parameter changes.
+ProcessInstancePhysicsService	Instance	
+ProximityPrompt	Instance	An object that lets you prompt players to interact with an object in the 3D world.
+ProximityPromptService	Instance	Allows developers to interact with `Class.ProximityPrompt` objects in a global way.
+PublishService	Instance	
+PVAdornment	GuiBase3d	An abstract class of which the inheritors can be adorned to objects of the `Class.PVInstance` class.
+PVInstance	Instance	Abstract class for all objects that have a physical location in the world.
+PyramidHandleAdornment	HandleAdornment	A pyramid-shaped handle that can be adorned to a `Class.BasePart`.
+QWidgetPluginGui	PluginGui	
+RayValue	ValueBase	A container object for a single Ray.
+RecommendationPages	Pages	A special version of the `Class.Pages` class returned by `Class.RecommendationService.GenerateItemListAsync|GenerateItemListAsync`.
+RecommendationService	Instance	A service that provides an interface for you to manage and display personalized content recommendations.
+ReflectionMetadata	Instance	A currently unused object whose functionality was split into `Class.ReflectionMetadataClasses` and `Class.ReflectionMetadataEnums`.
+ReflectionMetadataCallbacks	Instance	Acts as a `Class.Folder` containing information about callbacks for a `Class.ReflectionMetadataClass`, and should be parented to it. `Class.ReflectionMetadataMember|ReflectionMetadataMembers` that are parented to this object will be perceived as callbacks under the class this is parented to.
+ReflectionMetadataClass	ReflectionMetadataItem	Registers information about a class, and its members. Should be parented to `Class.ReflectionMetadataClasses`.
+ReflectionMetadataClasses	Instance	An internal object which cannot be used by developers.
+ReflectionMetadataEnum	ReflectionMetadataItem	Registers information about an `Datatype.Enum` and its EnumItems.
+ReflectionMetadataEnumItem	ReflectionMetadataItem	Contains information about a specific EnumItem embedded within an Enum.
+ReflectionMetadataEnums	Instance	Acts as a `Class.Folder` for `Class.ReflectionMetadataEnum` objects.
+ReflectionMetadataEvents	Instance	Acts as a `Class.Folder` containing information about events for a `Class.ReflectionMetadataClass`, and should be parented to it. `Class.ReflectionMetadataMember|ReflectionMetadataMembers` that are parented to this object will be perceived as events under the class this is parented to.
+ReflectionMetadataFunctions	Instance	Acts as a `Class.Folder` containing information about functions for a `Class.ReflectionMetadataClass`, and should be parented to it. `Class.ReflectionMetadataMember|ReflectionMetadataMembers` that are parented to this object will be perceived as functions under the class this is parented to.
+ReflectionMetadataItem	Instance	Acts as abstract properties for generic information about Classes, Members, Enums, and EnumItems.
+ReflectionMetadataMember	ReflectionMetadataItem	An internal object which cannot be used by developers.
+ReflectionMetadataProperties	Instance	Acts as a `Class.Folder` containing information about properties for a `Class.ReflectionMetadataClass`, and should be parented to it. `Class.ReflectionMetadataMember|ReflectionMetadataMembers` that are parented to this object will be perceived as properties under the class this is parented to.
+ReflectionMetadataYieldFunctions	Instance	Acts as a `Class.Folder` containing information about yielding functions for a `Class.ReflectionMetadataClass`, and should be parented to it. `Class.ReflectionMetadataMember|ReflectionMetadataMembers` that are parented to this object will be perceived as yielding functions under the class this is parented to.
+ReflectionService	Instance	
+RemoteCommandService	Instance	
+RemoteDebuggerServer	Instance	
+RemoteEvent	BaseRemoteEvent	An object which facilitates asynchronous, one-way communication across the client-server boundary. Scripts firing a `Class.RemoteEvent` do not yield.
+RemoteFunction	Instance	An object which facilitates synchronous, two-way communication across the client-server boundary. Scripts invoking a `Class.RemoteFunction` yield until they receive a response from the recipient.
+RenderingTest	Instance	An internal testing utility for the rendering pipeline.
+RenderSettings	Instance	
+ReplicatedFirst	Instance	A container whose contents are replicated to all clients (but not back to the server) first before anything else.
+ReplicatedStorage	Instance	A container service for objects that are replicated to all clients.
+ReverbSoundEffect	SoundEffect	Reverberates audio, simulating the effect of bouncing off walls in a room.
+RigidConstraint	Constraint	Creates a rigid connection between two `Class.Attachment|Attachments` or `Class.Bone|Bones`.
+RocketPropulsion	BodyMover	Applies a force so that an assembly follows and faces a target part.
+RodConstraint	Constraint	Keeps two attachments separated by its defined `Class.RodConstraint.Length|Length`.
+RopeConstraint	Constraint	Simulates rope dynamics, preventing two attachments from separating further than a defined length.
+Rotate	JointInstance	
+RotateP	DynamicRotate	
+RotateV	DynamicRotate	
+RotationCurve	Instance	Represents a sequence of rotations and the interpolation curve between them.
+RunningAverageItemDouble	StatsItem	Measures the runtime average of a **double** value.
+RunningAverageItemInt	StatsItem	Measures the runtime average of an **integer** value.
+RunningAverageTimeIntervalItem	StatsItem	Measures the runtime average of a time interval value.
+RunService	Instance	Service responsible for all runtime activity and progression of time.
+SceneAnalysisService	Instance	
+ScreenGui	LayerCollector	Primary container of on-screen 2D user interface elements.
+ScreenshotCapture	Capture	A child class of `Class.Capture` for screenshots.
+ScreenshotHud	Instance	A 2D user interface that allows users to capture and save screenshots to their local device.
+Script	BaseScript	An object that contains and runs Luau code on the server.
+ScriptBuilder	Instance	
+ScriptContext	Instance	
+ScriptDocument	Instance	
+ScriptEditorService	Instance	This service is used for interacting with `Class.ScriptDocument` instances.
+ScriptProfilerService	Instance	
+ScriptService	Instance	An unimplemented service that has zero functionality, in a similar manner to the `LocalWorkspace` service.
+ScrollingFrame	GuiObject	`ScrollingFrame` is a special `Class.Frame` type with built-in scrolling interactivity and different ways to customize how the scrolling works.
+Seat	Part	A type of `Class.BasePart` that characters can 'sit' in. When a character touches an enabled Seat object, it will be attached to the part by a `Class.Weld` and the default character scripts will play a sitting animation.
+Selection	Instance	The Selection service controls the `Class.Instance|Instances` that are selected in Roblox Studio.
+SelectionBox	InstanceAdornment	Renders a 3D box around its `Class.PVAdornment.Adornee|Adornee`.
+SelectionHighlightManager	Instance	
+SelectionLasso	GuiBase3d	Abstract class for `Class.SelectionPartLasso` and `Class.SelectionPartLasso`.
+SelectionPartLasso	SelectionLasso	An instance used to display a "lasso" between a `Class.Humanoid` Torso and a `Class.BasePart`.
+SelectionPointLasso	SelectionLasso	
+SelectionSphere	PVAdornment	Renders a 3D sphere around its `Class.PVAdornment.Adornee|Adornee`.
+SelfViewConfiguration	BaseCoreGuiConfiguration	
+SensorBase	Instance	An abstract class for various sensor instance types.
+SerializationService	Instance	
+ServerReplicator	NetworkReplicator	
+ServerScriptService	Instance	A container service for server-only `Class.Script` objects.
+ServerStorage	Instance	A container whose contents are only accessible on the server. Objects descending from ServerStorage will not replicate to the client and will not be accessible from `Class.LocalScript|LocalScripts`.
+ServiceProvider	Instance	A ServiceProvider is an abstract class, which stores, and provides certain singleton classes, depending on what inherited class you are using its members with.
+ServiceVisibilityService	Instance	
+SessionCheckService	Instance	
+SharedTableRegistry	Instance	Provides a global registry of named `Datatype.SharedTable` objects.
+Shirt	Clothing	Displays a shirt texture on a `Class.Humanoid` rig.
+ShirtGraphic	CharacterAppearance	Applies a texture to the front surface of a character's torso, used to display t-shirts.
+SkateboardController	Controller	
+SkateboardPlatform	Part	A SkateboardPlatform can be used to create a skateboard. When characters get on a skateboard, they are stuck to it until they press the escape key. Until then, the character uses skateboard animations and travels faster than a walking character.
+Skin	CharacterAppearance	Historically changed the colors of body parts to match the `Class.Skin.SkinColor` property. Superseded by the `Class.BodyColors` class.
+Sky	Instance	Changes the default appearance of the experience's sky.
+SlidingBallConstraint	Constraint	The base class for constraints that allow their attachments to slide along an axis but not rotate.
+SlimContentProvider	CacheableContentProvider	
+Smoke	Instance	A particle emitter with the visual aesthetic of smoke.
+SmoothVoxelsUpgraderService	Instance	
+Snap	JointInstance	Holds two parts together and functions identically to `Class.Weld`.
+SocialService	Instance	Facilitates social functions that impact relationships made on the Roblox platform.
+SolidModelContentProvider	CacheableContentProvider	An internal service which serves no functionality to developers.
+Sound	Instance	An object that emits sound. This object can be placed within a `Class.BasePart` or `Class.Attachment` to emit a sound from a particular position within a place or world, or it can be attached elsewhere to play the sound at a constant volume throughout the entire place.
+SoundEffect	Instance	SoundEffect is the base class that all other sound effects derive from. A SoundEffect can be applied to either a `Class.Sound` or `Class.SoundGroup` by being parented to either.
+SoundGroup	Instance	A `Class.SoundGroup` is used to manage the volume and sound effects on multiple `Class.Sound|Sounds` at once. `Class.Sound|Sounds` in the SoundGroup will have their volume and effects adjusted by the SoundGroup.
+SoundService	Instance	A service that determines various aspects of how the audio engine works. Most of its properties affect how `Class.Sound|Sounds` play in the experience.
+Sparkles	Instance	A particle emitter with the visual aesthetic of sparkles.
+SpawnerService	Instance	An internal service that is responsible for the behavior of `Class.SpawnLocation|SpawnLocations`. Its functionality is not accessible to developers.
+SpawnLocation	Part	`Class.SpawnLocation|SpawnLocations`, or "spawns" determine where a `Class.Player` respawns when they die. They can be configured to allow only certain players to use each spawn, using `Class.Team|Teams`. They also control how `Class.ForceField|ForceFields` are set up for newly-spawned players.
+SpecialMesh	FileMesh	The `Class.SpecialMesh` object applies a mesh to a `Class.BasePart` depending on the `Class.SpecialMesh.MeshType|MeshType` property.
+SphereHandleAdornment	HandleAdornment	A sphere-shaped handle that can be adorned to a `Class.BasePart`.
+SpotLight	Light	A light source that emits light directionally in the shape of a cone with a spherical base.
+SpringConstraint	Constraint	Simulates spring and damper behavior between two attachments.
+StandalonePluginScripts	Instance	
+StandardPages	Pages	
+StarterCharacterScripts	StarterPlayerScripts	Stores instances to be parented to a player's character when it spawns.
+StarterGear	Instance	If the game allows gear, `StarterGear` is a container automatically inserted into each `Class.Player` object when the player joins the game. Whenever the player's character spawns, the contents of that player's `StarterGear` are copied into the player's `Class.Backpack`.
+StarterGui	BasePlayerGui	A container for `Class.LayerCollector` objects to be copied into the `Class.PlayerGui` of `Class.Player|Players`. Also provides a range of functions for interacting with the `Class.CoreGui`.
+StarterPack	Instance	A container whose contents are copied into each player's `Class.Backpack` when their player character spawns. It is generally used to hold `Class.Tool|Tools`.
+StarterPlayer	Instance	A service which allows the defaults of properties in the `Class.Player` object to be set.
+StarterPlayerScripts	Instance	A container for objects to be copied to a Player's PlayerScripts when they join a game.
+StartupMessageService	Instance	
+Stats	Instance	Performance metrics for a game.
+StatsItem	Instance	A single performance metric.
+Status	Model	An unfinished object which offers no functionality to developers.
+StopWatchReporter	Instance	
+StringValue	ValueBase	A container object for a single string.
+Studio	Instance	
+StudioCaptureService	Instance	
+StudioDeviceSimulatorService	Instance	Service allowing you to control Studio's Device Simulator.
+StudioScreenshotCapture	Instance	
+StudioService	Instance	Provides access to configuration of Roblox Studio and allows importing files from the user's file system.
+StudioTestService	Instance	Service allowing plugins to automate and customize Test and Run mode testing.
+StudioTheme	Instance	
+StyleBase	Instance	The base class for `Class.StyleSheet` and `Class.StyleRule`.
+StyleDerive	Instance	When parented to a `Class.StyleSheet`, references another `Class.StyleSheet` from which the parent inherits `Class.StyleRule|StyleRules` and token definitions.
+StyleLink	Instance	Links a `Class.StyleSheet` to the instance tree whose root is the parent of the `StyleLink`.
+StyleQuery	Instance	Instance used to set conditions such as `"MaxSize"` and `"PreferredInput"` for a `Class.StyleRule`.
+StyleRule	StyleBase	Defines style properties which override properties on the instances affected by the `Class.StyleRule.Selector|Selector` property.
+StyleSheet	StyleBase	Aggregates `Class.StyleRule|StyleRules` and can be linked to `Class.DataModel` trees to apply style properties to instances.
+SunRaysEffect	PostEffect	Renders dynamic rays from the sun.
+SurfaceAppearance	Instance	An object that allows developers to override the appearance of a MeshPart with advanced graphics options.
+SurfaceGui	SurfaceGuiBase	Container for GuiObjects that are rendered on the surface of a part.
+SurfaceGuiBase	LayerCollector	
+SurfaceLight	Light	A light source that emits illumination of a specified color and brightness from a face for a specified range.
+SurfaceSelection	PartAdornment	Highlights a face of a surface in a configurable color.
+SwimController	ControllerBase	
+SyncScriptBuilder	ScriptBuilder	
+TaskScheduler	Instance	Collection of settings for the _Task Scheduler_ feature.
+Team	Instance	The `Class.Team` class represents a faction in a Roblox place. The only valid parent for a Team is in the `Class.Teams` service.
+TeamCreateData	Instance	
+TeamCreateService	Instance	
+Teams	Instance	The Teams service holds a game's `Class.Team` objects. `Class.Team` objects must be parented to the Teams service.
+TeleportAsyncResult	Instance	The return structure of the `TeleportAsync` function call.
+TeleportOptions	Instance	Optional input arguments to the `Class.TeleportService:TeleportAsync()` function.
+TeleportService	Instance	Enables transporting `Class.Player|Players` between places and servers. For more information on how to teleport players between servers, see [Teleport between places](../../../projects/teleport.md).
+Terrain	BasePart	`Terrain` lets you to create dynamically morphable environments.
+TerrainDetail	Instance	Determines appearance of a certain terrain face direction.
+TerrainRegion	Instance	
+TestService	Instance	A service used by Roblox to run controlled tests of the engine. It is available for developers to use, to a limited degree.
+TextBox	GuiObject	A 2D user interface element that displays player-editable text.
+TextBoxService	Instance	
+TextButton	GuiButton	A 2D user interface element that displays interactive text.
+TextChannel	Instance	Represents a text chat channel.
+TextChatCommand	Instance	Represents a text chat command.
+TextChatConfigurations	Instance	The parental class of all text chat configurations.
+TextChatMessage	Instance	A data object representing a text chat message.
+TextChatMessageProperties	Instance	Overrides `Class.TextChatMessage` properties when returned by callbacks defined in `Class.TextChatService.OnIncomingMessage` or `Class.TextChannel.OnIncomingMessage`.
+TextChatService	Instance	A service handling in-experience text chat.
+TextFilterResult	Instance	
+TextFilterTranslatedResult	Instance	
+TextGenerator	Instance	Gives access to a large language model for text generation.
+TextLabel	GuiLabel	A 2D user interface element that displays non-interactive text.
+TextService	Instance	Service internally responsible for handling the display of text.
+TextSource	Instance	Represents a speaker in a `Class.TextChannel`.
+Texture	Decal	Applies a repeating image texture to the face of a parent `Class.BasePart`.
+TimerService	Instance	An internal service responsible for scheduling timed events. It is used by the `Class.Debris` class. Its functionality can not be accessed by developers.
+Tool	BackpackItem	An object, such as a weapon, that can be equipped by a `Class.Humanoid`.
+Torque	Constraint	Applies constant torque to an assembly from its center of mass.
+TorsionSpringConstraint	Constraint	A rotational spring that opposes the angular motion between two axes.
+TotalCountTimeIntervalItem	StatsItem	Measures a total-count-over-time interval.
+TouchInputService	Instance	An internal service responsible for touch inputs on mobile devices.
+TouchTransmitter	Instance	An internal object used by networking and replication code to transmit `Class.BasePart.Touched` and `Class.BasePart.TouchEnded` events.
+Trail	Instance	Used to create a trail effect between two attachments.
+Translator	Instance	The role of a Translator is to manufacture/return strings localized for the viewing player.
+TremoloSoundEffect	SoundEffect	Creates a trembling effect on a sound by varying the volume of the sound up and down.
+TriangleMeshPart	BasePart	Abstract intermediate class that manages physical geometry properties for PartOperations and MeshParts.
+TrussPart	BasePart	Similar to a `Class.Part` but with a different visual `Class.TrussPart.Style|Style` and the important distinction that default characters are able to climb it.
+Tween	TweenBase	The `Class.Tween` object controls the playback of an interpolation.
+TweenBase	Instance	Abstract base class for in-between interpolation handlers. `Class.Tween` inherits from `Class.TweenBase`.
+TweenService	Instance	Used to create `Class.Tween|Tweens` which interpolate, or tween, the properties of instances.
+UGCValidationService	Instance	
+UIAspectRatioConstraint	UIConstraint	Ensures the parent UI element maintains a particular aspect ratio.
+UIBase	Instance	`Class.UIBase` is the base class for UI layout and constraint classes.
+UIComponent	UIBase	A base class for UI constraint and layout classes.
+UIConstraint	UIComponent	The base class for UI constraint classes.
+UICorner	UIComponent	UI modifier which applies deformation to corners of its parent `Class.GuiObject`.
+UIDragDetector	UIComponent	Instance which facilitates and encourages interaction with UI elements in an experience.
+UIFlexItem	UIComponent	Defines flex behavior for a `Class.GuiObject` within a `Class.UIListLayout`.
+UIGradient	UIComponent	Applies a color and transparency gradient to the UI elements rendered by the parent `Class.GuiObject`.
+UIGridLayout	UIGridStyleLayout	Positions sibling UI elements by filling rows using the space of the parent UI element.
+UIGridStyleLayout	UILayout	The base class for grid style UI layouts.
+UILayout	UIComponent	The base class for UI layout classes.
+UIListLayout	UIGridStyleLayout	Positions sibling UI elements in rows or columns within the parent UI container.
+UIPadding	UIComponent	Applies padding to the borders of the parent `Class.GuiObject`.
+UIPageLayout	UIGridStyleLayout	
+UIScale	UIComponent	An object that acts as a multiplier for the size of the parent UI element's scale.
+UIShadow	UIComponent	Renders a shadow below the parent UI instance.
+UISizeConstraint	UIConstraint	Ensures a `Class.GuiObject` does not become larger or smaller than the constraint's maximum size or minimum size.
+UIStroke	UIComponent	Applies an outline to text or a UI border.
+UITableLayout	UIGridStyleLayout	Lays out sibling UI elements and their child UI elements as rows/columns and cells in a table.
+UITextSizeConstraint	UIConstraint	Ensures that the size of text rendered by certain `Class.GuiObject` classes lies within the range described by `Class.UITextSizeConstraint.MaxTextSize|MaxTextSize` and `Class.UITextSizeConstraint.MinTextSize|MinTextSize`.
+UnionOperation	PartOperation	Result of parts that have been joined together into a single solid model.
+UniqueIdLookupService	Instance	
+UniversalConstraint	Constraint	Ensures two axes on two bodies remain perpendicular.
+UnreliableRemoteEvent	BaseRemoteEvent	An object which facilitates asynchronous, unordered and unreliable, one-way communication across the client-server boundary. Scripts firing a `Class.UnreliableRemoteEvent` do not yield.
+UserGameSettings	Instance	The UserGameSettings is a singleton class found inside of the `Class.UserSettings` singleton. It holds various persistent settings relating to how the user wants to control their camera, and their character.
+UserInputService	Instance	`UserInputService` is primarily used to detect the input types available on a user's device, as well as detect input events.
+UserService	Instance	A service that handles queries regarding users on the Roblox platform.
+UserSettings	GenericSettings	A singleton object that houses basic user settings, which persist across all games on Roblox.
+ValueBase	Instance	Base class of all "value instance" objects.
+ValueCurve	Instance	A sorted list of time-value pairs that define a curve. Used to animate a any type of value.
+Vector3Curve	Instance	Represents a 3D vector curve, grouping three `Class.FloatCurve` instances.
+Vector3Value	ValueBase	A container object for a single Vector3 value.
+VectorForce	Constraint	Applies constant force to an assembly.
+VehicleController	Controller	
+VehicleSeat	BasePart	A seat object that can be used to control a vehicle.
+VelocityMotor	JointInstance	
+VideoCapture	Capture	A child class of `Class.Capture` for videos.
+VideoCaptureService	Instance	
+VideoDisplay	GuiObject	A GUI object that displays video content from a connected `Class.VideoPlayer`.
+VideoFrame	GuiObject	A GUI object that renders a rectangle, like a `Class.Frame` does, with a moving video image.
+VideoPlayer	Instance	Used to play video assets.
+VideoSampler	Object	An object for sampling frames from video content.
+VideoService	Instance	An internal service that offers no functionality to developers.
+ViewportFrame	GuiObject	`Class.GuiObject` that renders 3D objects inside its bounds.
+VirtualInput	Object	Simulates mouse, keyboard, and pointer input as if it were performed by a real player.
+VirtualInputManager	Instance	An internal service that offers no functionality to developers.
+VirtualUser	Instance	VirtualUser is a service that allows you to record the inputs of a user, and then play it back to a limited extent.
+VisibilityCheckDispatcher	Instance	
+Visit	Instance	The Visit service is a backend service used by Roblox. Its functions are not accessible to developers in any form.
+VisualizationMode	Instance	
+VisualizationModeCategory	Instance	
+VisualizationModeService	Instance	
+VoiceChatService	Instance	**VoiceChatService** is responsible for voice chat's high-level functionality.
+VRService	Instance	Service responsible for handling interactions between Roblox and Virtual Reality (VR).
+VRStatusService	Instance	
+WebStreamClient	Object	Maintains a streaming connection.
+WedgePart	FormFactorPart	A type of `Class.BasePart` that has a wedge shape.
+Weld	JointInstance	
+WeldConstraint	Instance	Connects two `Class.BasePart|BaseParts` together such that their relative position and orientation remain the same.
+Wire	Instance	Connects one or more `Class.Instance|Instances` to form a processing graph of their streams. At the moment, only audio streams are supported, but this may expand in the future.
+WireframeHandleAdornment	HandleAdornment	Renders a wireframe adornment consisting of one or more lines onto a `Class.BasePart` (including `Class.Terrain`) or into the `Class.Workspace`.
+Workspace	WorldRoot	**Workspace** houses 3D objects which are rendered to the 3D world. Objects not descending from it will not be rendered or physically interact with the world.
+WorkspaceAnnotation	Annotation	
+WorldModel	WorldRoot	Extends limited physics for its children on to a parent `Class.ViewportFrame`.
+WorldRoot	Model	Base class for handling physics simulation and 3D spatial queries.
+WrapDeformer	BaseWrap	Allows for the real-time deformation of a `Class.MeshPart`.
+WrapLayer	BaseWrap	The WrapLayer object defines a 3D accessory's inner and outer surfaces and other properties related to layering accessories. These surfaces, or the Inner Cage and Outer Cage, are similar to collision boxes, and describe the surfaces of which other 3D accessories can be placed without clipping or breaking.
+WrapTarget	BaseWrap	The WrapTarget object defines a target. A target is the 3D body with only an outer surface, or an Outer Cage.
+WrapTextureTransfer	Instance	`Class.WrapTextureTransfer` allows a parent `Class.Decal` to be wrapped around its parent `Class.MeshPart` based on the cage of its `Class.WrapTarget`.
